@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>أذان الصلاة: Azan al-Salat - Politika zasebnosti</title>
+    <style>
+        :root {
+            --bg-color: #f5f5f7;
+            --text-color: #1d1d1f;
+            --accent-color: #1A3C34;
+            --card-bg: #ffffff;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: var(--card-bg);
+            border-radius: 16px;
+            padding: 40px;
+        }
+        h1 { color: var(--accent-color); margin-bottom: 10px; font-size: 2em; }
+        h2 { color: var(--accent-color); margin: 30px 0 15px; font-size: 1.3em; }
+        .date { color: #666; margin-bottom: 30px; }
+        p, li { margin-bottom: 12px; }
+        ul { padding-left: 25px; }
+        a { color: var(--accent-color); }
+        .highlight {
+            background: rgba(200,169,81,0.12);
+            padding: 15px;
+            border-radius: 8px;
+            margin: 20px 0;
+            border-left: 3px solid #C8A951;
+        }
+        .lang-switcher {
+            text-align: right;
+            margin-bottom: 20px;
+        }
+        .lang-switcher select {
+            padding: 8px 12px;
+            border-radius: 8px;
+            border: 1px solid #ddd;
+            background: white;
+            font-size: 14px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="lang-switcher">
+            <select onchange="window.location.href=this.value">
+                <option value="privacy-policy-windows.html">English</option>
+                <option value="privacy-policy-windows-af.html">Afrikaans</option>
+                <option value="privacy-policy-windows-sq.html">Shqip</option>
+                <option value="privacy-policy-windows-am.html">ሀመር</option>
+                <option value="privacy-policy-windows-ar.html">العربية</option>
+                <option value="privacy-policy-windows-hy.html">Հայերեն</option>
+                <option value="privacy-policy-windows-az.html">Azərbayccan</option>
+                <option value="privacy-policy-windows-eu.html">Euskara</option>
+                <option value="privacy-policy-windows-be.html">Беларуская</option>
+                <option value="privacy-policy-windows-bn.html">বাংলা</option>
+                <option value="privacy-policy-windows-bg.html">Български</option>
+                <option value="privacy-policy-windows-my.html">မြန်မာ</option>
+                <option value="privacy-policy-windows-ca.html">Català</option>
+                <option value="privacy-policy-windows-zh-CN.html">简体中文</option>
+                <option value="privacy-policy-windows-zh-HK.html">中文(香港)</option>
+                <option value="privacy-policy-windows-zh-TW.html">繁體中文</option>
+                <option value="privacy-policy-windows-hr.html">Hrvatski</option>
+                <option value="privacy-policy-windows-cs.html">Čeština</option>
+                <option value="privacy-policy-windows-da.html">Dansk</option>
+                <option value="privacy-policy-windows-nl.html">Nederlands</option>
+                <option value="privacy-policy-windows-et.html">Eesti</option>
+                <option value="privacy-policy-windows-fil.html">Filipino</option>
+                <option value="privacy-policy-windows-fi.html">Suomi</option>
+                <option value="privacy-policy-windows-fr.html">Français</option>
+                <option value="privacy-policy-windows-fr-CA.html">Français (Canada)</option>
+                <option value="privacy-policy-windows-gl.html">Galego</option>
+                <option value="privacy-policy-windows-ka.html">ქართული</option>
+                <option value="privacy-policy-windows-de.html">Deutsch</option>
+                <option value="privacy-policy-windows-el.html">Ελληνικά</option>
+                <option value="privacy-policy-windows-gu.html">ગુજરાતી</option>
+                <option value="privacy-policy-windows-hi.html">हिन्दी</option>
+                <option value="privacy-policy-windows-hu.html">Magyar</option>
+                <option value="privacy-policy-windows-is.html">Íslenska</option>
+                <option value="privacy-policy-windows-id.html">Bahasa Indonesia</option>
+                <option value="privacy-policy-windows-it.html">Italiano</option>
+                <option value="privacy-policy-windows-ja.html">日本語</option>
+                <option value="privacy-policy-windows-kn.html">ಕನ್ನಡ</option>
+                <option value="privacy-policy-windows-kk.html">Қазақ</option>
+                <option value="privacy-policy-windows-km.html">ខ្មែរ</option>
+                <option value="privacy-policy-windows-ko.html">한국어</option>
+                <option value="privacy-policy-windows-ky.html">Кыргызча</option>
+                <option value="privacy-policy-windows-lo.html">ລາວ</option>
+                <option value="privacy-policy-windows-lv.html">Latviešu</option>
+                <option value="privacy-policy-windows-lt.html">Lietuvių</option>
+                <option value="privacy-policy-windows-mk.html">Македонски</option>
+                <option value="privacy-policy-windows-ms.html">Bahasa Melayu</option>
+                <option value="privacy-policy-windows-ml.html">മലയാളം</option>
+                <option value="privacy-policy-windows-mr.html">मराठी</option>
+                <option value="privacy-policy-windows-mn.html">Монгол</option>
+                <option value="privacy-policy-windows-ne.html">नेपाली</option>
+                <option value="privacy-policy-windows-no.html">Norsk</option>
+                <option value="privacy-policy-windows-fa.html">فارسی</option>
+                <option value="privacy-policy-windows-pl.html">Polski</option>
+                <option value="privacy-policy-windows-pt-BR.html">Português (Brasil)</option>
+                <option value="privacy-policy-windows-pt-PT.html">Português (Portugal)</option>
+                <option value="privacy-policy-windows-pa.html">ਪੰਜਾਬੀ</option>
+                <option value="privacy-policy-windows-ro.html">Română</option>
+                <option value="privacy-policy-windows-rm.html">Rumantsch</option>
+                <option value="privacy-policy-windows-ru.html">Русский</option>
+                <option value="privacy-policy-windows-sr.html">Српски</option>
+                <option value="privacy-policy-windows-si.html">සිංහල</option>
+                <option value="privacy-policy-windows-sk.html">Slovenčina</option>
+                <option value="privacy-policy-windows-sl.html" selected>Slovenščina</option>
+                <option value="privacy-policy-windows-es-419.html">Español (Latinoamérica)</option>
+                <option value="privacy-policy-windows-es-ES.html">Español (España)</option>
+                <option value="privacy-policy-windows-es-US.html">Español (Estados Unidos)</option>
+                <option value="privacy-policy-windows-sw.html">Kiswahili</option>
+                <option value="privacy-policy-windows-sv.html">Svenska</option>
+                <option value="privacy-policy-windows-ta.html">தமிழ்</option>
+                <option value="privacy-policy-windows-te.html">తెలుగు</option>
+                <option value="privacy-policy-windows-th.html">ไทย</option>
+                <option value="privacy-policy-windows-tr.html">Türkçe</option>
+                <option value="privacy-policy-windows-uk.html">Українська</option>
+                <option value="privacy-policy-windows-ur.html">اردو</option>
+                <option value="privacy-policy-windows-vi.html">Tiếng Việt</option>
+                <option value="privacy-policy-windows-zu.html">isiZulu</option>
+            </select>
+        </div>
+
+        <h1>أذان الصلاة: Azan al-Salat — Politika zasebnosti</h1>
+        <p class="date">Zadnja posodobitev: april 2026</p>
+
+        <div class="highlight">
+            <strong>Povzetek:</strong> أذان الصلاة: Azan al-Salat spoštuje vašo zasebnost. Ne zbiramo osebnih podatkov na ravni računa, kot so imena, e-poštni naslovi ali oglaševalski identifikatorji. Nekatere funkcije, ki temeljijo na lokaciji, lahko pošljejo vaše koordinate GPS storitvam tretjih oseb za izračun časa molitve ali razrešitev imen mest. </div>
+
+        <h2>Podatki, ki jih ne zbiramo</h2>
+        <p>أذان الصلاة: Azan al-Salat ne zbira osebnih podatkov na ravni računa. Natančneje, ne zbiramo:</p>
+        <ul>
+            <li>Imen, e-poštnih naslovov ali kontaktnih podatkov</li>
+            <li>Identifikatorjev naprave za namene sledenja</li>
+            <li>Analitike uporabe ali podatkov o vedenju</li>
+            <li>Nobenih podatkov za oglaševalske namene</li>
+        </ul>
+
+        <h2>Lokalno shranjevanje podatkov</h2>
+        <p>أذان الصلاة: Azan al-Salat shrani naslednje podatke lokalno v vaši napravi s pomočjo encrypted Windows application storage. Te nastavitve so shranjene v napravi, čeprav lahko funkcije, ki temeljijo na lokaciji, po potrebi pošljejo tudi vaše koordinate GPS storitvam tretjih oseb:</p>
+        <ul>
+            <li><strong>Lokacija:</strong> GPS koordinate in ime mesta, shranjeni v predpomnilniku za izračun in prikaz časov molitve</li>
+            <li><strong>Nastavitve molitve:</strong> Metoda izračuna, zvoki azana, nastavitve obvestil in ikame</li>
+            <li><strong>Predpomnilnik molitve:</strong> 30-dnevni brezžični predpomnilnik časov molitve</li>
+            <li><strong>Koran:</strong> Nastavitve prevoda, predpomnjeni prevodi, zaznamki in velikost pisave</li>
+            <li><strong>Nastavitve aplikacije:</strong> Jezik, temni način in stanje uvoda</li>
+            <li><strong>Stanje nakupov:</strong> Zapis nakupov znotraj aplikacije</li>
+        </ul>
+
+        <h2>Omrežne zahteve</h2>
+        <p>Sledi celoten seznam omrežnih zahtev, ki jih lahko naredi aplikacija. Tem zahtevam niso priloženi nobeni neposredni identifikatorji, kot so vaše ime, e-poštni naslov ali ID naprave:</p>
+        <ul>
+            <li><strong>Aladhan API</strong> (aladhan.com) — Uporablja se kot rezerva le, če izračun molitve brez povezave ne uspe. Pošlje vaše koordinate GPS in metodo izračuna za izračun časa molitve.</li>
+            <li><strong>AlQuran Cloud API</strong> (alquran.cloud) — Pridobi prevode Korana ob prvi uporabi. Pošlje samo številko poglavja in kodo prevoda.</li>
+            <li><strong>Photon / Nominatim / OpenStreetMap</strong> — Enkrat se uporabi za pretvorbo vaših GPS koordinat v ime mesta za prikaz. Ne pošlje se noben trajni identifikator.</li>
+            <li><strong>Preverba DNS</strong> (dns.google) — Standardna poizvedba DNS, ki se v ozadju izvaja za preverjanje dostopnosti interneta pred osvežitvijo predpomnilnika molitve. Nobeni podatki aplikacije se ne pošljejo.</li>
+        </ul>
+
+        <h2>Nakupi znotraj aplikacije</h2>
+        <p>أذان الصلاة: Azan al-Salat ponuja izbirne nakupe znotraj aplikacije, ki se v celoti obdelajo prek Microsoft Store z uporabo Microsoft Store services. Zapisi o nakupih so upravljani s strani Googla in shranjeni lokalno na vaši napravi.</p>
+
+        <h2>Storitve tretjih oseb</h2>
+        <p>أذان الصلاة: Azan al-Salat ne vključuje nobenih analitičnih, oglaševalskih ali poročevalnih storitev tretjih oseb za napake. Ni analitičnega niti oglaševalskega SDK-ja ni. Edina zunanja storitev, ki se uporablja za nakupe, je Microsoft Store services.</p>
+
+        <h2>Zasebnost otrok</h2>
+        <p>أذان الصلاة: Azan al-Salat ne zbira zavestno osebnih podatkov na ravni računa od otrok ali odraslih.</p>
+
+        <h2>Brisanje podatkov</h2>
+        <p>Ker so vsi podatki shranjeni lokalno na vaši napravi:</p>
+        <ul>
+            <li>Z odstranitvijo aplikacije se izbrišejo vsi lokalno shranjeni podatki</li>
+            <li>Lokacijo in nastavitve lahko ponastavite na zaslonu Nastavitve v aplikaciji</li>
+        </ul>
+
+        <h2>Spremembe te politike</h2>
+        <p>To politiko zasebnosti lahko občasno posodobimo. Vse spremembe bodo objavljene na tej strani z posodobljenim datumom revizije.</p>
+
+        <h2>Stik</h2>
+        <p>Če imate vprašanja o tej politiki zasebnosti, nas kontaktirajte na:</p>
+        <p><a href="mailto:contact@yasserhamek.com">contact@yasserhamek.com</a></p>
+    </div>
+</body>
+</html>
