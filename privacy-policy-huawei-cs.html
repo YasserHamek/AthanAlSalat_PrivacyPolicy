@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>أذان الصلاة: Azán al-Salát - Zásady ochrany osobních údajů</title>
+    <style>
+        :root {
+            --bg-color: #f5f5f7;
+            --text-color: #1d1d1f;
+            --accent-color: #1A3C34;
+            --card-bg: #ffffff;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: var(--card-bg);
+            border-radius: 16px;
+            padding: 40px;
+        }
+        h1 { color: var(--accent-color); margin-bottom: 10px; font-size: 2em; }
+        h2 { color: var(--accent-color); margin: 30px 0 15px; font-size: 1.3em; }
+        .date { color: #666; margin-bottom: 30px; }
+        p, li { margin-bottom: 12px; }
+        ul { padding-left: 25px; }
+        a { color: var(--accent-color); }
+        .highlight {
+            background: rgba(200,169,81,0.12);
+            padding: 15px;
+            border-radius: 8px;
+            margin: 20px 0;
+            border-left: 3px solid #C8A951;
+        }
+        .lang-switcher {
+            text-align: right;
+            margin-bottom: 20px;
+        }
+        .lang-switcher select {
+            padding: 8px 12px;
+            border-radius: 8px;
+            border: 1px solid #ddd;
+            background: white;
+            font-size: 14px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="lang-switcher">
+            <select onchange="window.location.href=this.value">
+                <option value="privacy-policy-huawei.html">English</option>
+                <option value="privacy-policy-huawei-af.html">Afrikaans</option>
+                <option value="privacy-policy-huawei-sq.html">Shqip</option>
+                <option value="privacy-policy-huawei-am.html">ሀመር</option>
+                <option value="privacy-policy-huawei-ar.html">العربية</option>
+                <option value="privacy-policy-huawei-hy.html">Հայերեն</option>
+                <option value="privacy-policy-huawei-az.html">Azərbayccan</option>
+                <option value="privacy-policy-huawei-eu.html">Euskara</option>
+                <option value="privacy-policy-huawei-be.html">Беларуская</option>
+                <option value="privacy-policy-huawei-bn.html">বাংলা</option>
+                <option value="privacy-policy-huawei-bg.html">Български</option>
+                <option value="privacy-policy-huawei-my.html">မြန်မာ</option>
+                <option value="privacy-policy-huawei-ca.html">Català</option>
+                <option value="privacy-policy-huawei-zh-CN.html">简体中文</option>
+                <option value="privacy-policy-huawei-zh-HK.html">中文(香港)</option>
+                <option value="privacy-policy-huawei-zh-TW.html">繁體中文</option>
+                <option value="privacy-policy-huawei-hr.html">Hrvatski</option>
+                <option value="privacy-policy-huawei-cs.html" selected>Čeština</option>
+                <option value="privacy-policy-huawei-da.html">Dansk</option>
+                <option value="privacy-policy-huawei-nl.html">Nederlands</option>
+                <option value="privacy-policy-huawei-et.html">Eesti</option>
+                <option value="privacy-policy-huawei-fil.html">Filipino</option>
+                <option value="privacy-policy-huawei-fi.html">Suomi</option>
+                <option value="privacy-policy-huawei-fr.html">Français</option>
+                <option value="privacy-policy-huawei-fr-CA.html">Français (Canada)</option>
+                <option value="privacy-policy-huawei-gl.html">Galego</option>
+                <option value="privacy-policy-huawei-ka.html">ქართული</option>
+                <option value="privacy-policy-huawei-de.html">Deutsch</option>
+                <option value="privacy-policy-huawei-el.html">Ελληνικά</option>
+                <option value="privacy-policy-huawei-gu.html">ગુજરાતી</option>
+                <option value="privacy-policy-huawei-hi.html">हिन्दी</option>
+                <option value="privacy-policy-huawei-hu.html">Magyar</option>
+                <option value="privacy-policy-huawei-is.html">Íslenska</option>
+                <option value="privacy-policy-huawei-id.html">Bahasa Indonesia</option>
+                <option value="privacy-policy-huawei-it.html">Italiano</option>
+                <option value="privacy-policy-huawei-ja.html">日本語</option>
+                <option value="privacy-policy-huawei-kn.html">ಕನ್ನಡ</option>
+                <option value="privacy-policy-huawei-kk.html">Қазақ</option>
+                <option value="privacy-policy-huawei-km.html">ខ្មែរ</option>
+                <option value="privacy-policy-huawei-ko.html">한국어</option>
+                <option value="privacy-policy-huawei-ky.html">Кыргызча</option>
+                <option value="privacy-policy-huawei-lo.html">ລາວ</option>
+                <option value="privacy-policy-huawei-lv.html">Latviešu</option>
+                <option value="privacy-policy-huawei-lt.html">Lietuvių</option>
+                <option value="privacy-policy-huawei-mk.html">Македонски</option>
+                <option value="privacy-policy-huawei-ms.html">Bahasa Melayu</option>
+                <option value="privacy-policy-huawei-ml.html">മലയാളം</option>
+                <option value="privacy-policy-huawei-mr.html">मराठी</option>
+                <option value="privacy-policy-huawei-mn.html">Монгол</option>
+                <option value="privacy-policy-huawei-ne.html">नेपाली</option>
+                <option value="privacy-policy-huawei-no.html">Norsk</option>
+                <option value="privacy-policy-huawei-fa.html">فارسی</option>
+                <option value="privacy-policy-huawei-pl.html">Polski</option>
+                <option value="privacy-policy-huawei-pt-BR.html">Português (Brasil)</option>
+                <option value="privacy-policy-huawei-pt-PT.html">Português (Portugal)</option>
+                <option value="privacy-policy-huawei-pa.html">ਪੰਜਾਬੀ</option>
+                <option value="privacy-policy-huawei-ro.html">Română</option>
+                <option value="privacy-policy-huawei-rm.html">Rumantsch</option>
+                <option value="privacy-policy-huawei-ru.html">Русский</option>
+                <option value="privacy-policy-huawei-sr.html">Српски</option>
+                <option value="privacy-policy-huawei-si.html">සිංහල</option>
+                <option value="privacy-policy-huawei-sk.html">Slovenčina</option>
+                <option value="privacy-policy-huawei-sl.html">Slovenščina</option>
+                <option value="privacy-policy-huawei-es-419.html">Español (Latinoamérica)</option>
+                <option value="privacy-policy-huawei-es-ES.html">Español (España)</option>
+                <option value="privacy-policy-huawei-es-US.html">Español (EE. UU.)</option>
+                <option value="privacy-policy-huawei-sw.html">Kiswahili</option>
+                <option value="privacy-policy-huawei-sv.html">Svenska</option>
+                <option value="privacy-policy-huawei-ta.html">தமிழ்</option>
+                <option value="privacy-policy-huawei-te.html">తెలుగు</option>
+                <option value="privacy-policy-huawei-th.html">ไทย</option>
+                <option value="privacy-policy-huawei-tr.html">Türkçe</option>
+                <option value="privacy-policy-huawei-uk.html">Українська</option>
+                <option value="privacy-policy-huawei-ur.html">اردو</option>
+                <option value="privacy-policy-huawei-vi.html">Tiếng Việt</option>
+                <option value="privacy-policy-huawei-zu.html">isiZulu</option>
+            </select>
+        </div>
+
+        <h1>Zásady ochrany osobních údajů أذان الصلاة: Azán al-Salát</h1>
+        <p class="date">Poslední aktualizace: duben 2026</p>
+
+        <div class="highlight">
+            <strong>Shrnutí:</strong> أذان الصلاة: أذان الصلاة: أذان الصلاة: أذان الصلاة: أذان الصلاة: Athan al Salat respektuje vaše soukromí. Neshromažďujeme osobní údaje na úrovni účtu, jako jsou jména, e-mailové adresy nebo reklamní identifikátory. Některé funkce založené na poloze mohou odesílat vaše GPS souřadnice do služeb třetích stran, aby vypočítaly časy modliteb nebo vyřešily názvy měst. </div>
+
+        <h2>Informace, které neshromažďujeme</h2>
+        <p>أذان الصلاة: أذان الصلاة: أذان الصلاة: أذان الصلاة: أذان الصلاة: Athan al Salat neshromažďuje osobní údaje na úrovni účtu. Konkrétně nesbíráme:</p>
+        <ul>
+            <li>Jména, e-mailové adresy ani kontaktní údaje</li>
+            <li>Identifikátory zařízení pro účely sledování</li>
+            <li>Analytická nebo behaviorální data o používání</li>
+            <li>Žádná data pro reklamní účely</li>
+        </ul>
+
+        <h2>Místní úložiště dat</h2>
+        <p>أذان الصلاة: أذان الصلاة: أذان الصلاة: أذان الصلاة: أذان الصلاة: Athan al Salat ukládá následující data lokálně na vašem zařízení pomocí Android SharedPreferences. Tato nastavení jsou uložena v zařízení, ačkoli funkce založené na poloze mohou v případě potřeby odesílat vaše souřadnice GPS také službám třetích stran:</p>
+        <ul>
+            <li><strong>Poloha:</strong> GPS souřadnice a název města, uložené v mezipaměti pro výpočet a zobrazení časů modliteb</li>
+            <li><strong>Nastavení modliteb:</strong> Metoda výpočtu, zvuky azánu, předvolby oznámení a ikámy</li>
+            <li><strong>Mezipaměť modliteb:</strong> Offline mezipaměť časů modliteb na 30 dní</li>
+            <li><strong>Korán:</strong> Předvolby překladu, překlady v mezipaměti, záložky a velikost písma</li>
+            <li><strong>Nastavení aplikace:</strong> Jazyk, tmavý režim a stav průvodce úvodem</li>
+            <li><strong>Stav nákupů:</strong> Záznam nákupů v aplikaci</li>
+        </ul>
+
+        <h2>Síťové požadavky</h2>
+        <p>Následuje úplný seznam síťových požadavků, které může aplikace provést. K těmto žádostem nejsou připojeny žádné přímé identifikátory, jako je vaše jméno, e-mailová adresa nebo ID zařízení:</p>
+        <ul>
+            <li><strong>Aladhan API</strong> (aladhan.com) — Používá se jako záložní pouze v případě, že výpočet offline modlitby selže. Odešle vaše GPS souřadnice a metodu výpočtu pro výpočet modlitebních časů.</li>
+            <li><strong>AlQuran Cloud API</strong> (alquran.cloud) — Načítá překlady Koránu při prvním použití. Odesílá pouze číslo súry a kód překladu.</li>
+            <li><strong>Photon / Nominatim / OpenStreetMap</strong> — Použito jednorázově k převodu GPS souřadnic na název města pro zobrazení. Neposílá se žádný trvalý identifikátor.</li>
+            <li><strong>DNS kontrola</strong> (dns.google) — Standardní DNS dotaz používaný na pozadí ke kontrole dostupnosti internetu před obnovením mezipaměti modliteb. Neodesílají se žádná aplikační data.</li>
+        </ul>
+
+        <h2>Nákupy v aplikaci</h2>
+        <p>أذان الصلاة: Azán al-Salát nabízí volitelné nákupy v aplikaci zpracovávané výhradně prostřednictvím Google Play Store pomocí Google Play Billing. Záznamy o nákupech spravuje Google a jsou uloženy lokálně na vašem zařízení.</p>
+
+        <h2>Služby třetích stran</h2>
+        <p>أذان الصلاة: Azán al-Salát neintegruje žádné analytické, reklamní ani hlášení o pádech třetích stran. Neexistuje žádné analytické ani reklamní SDK. Jedinou externí službou používanou pro nákupy je Google Play Billing.</p>
+
+        <h2>Ochrana soukromí dětí</h2>
+        <p>أذان الصلاة: أذان الصلاة: أذان الصلاة: أذان الصلاة: أذان الصلاة: Athan al Salat vědomě neshromažďuje osobní údaje na úrovni účtu od dětí nebo dospělých.</p>
+
+        <h2>Smazání dat</h2>
+        <p>Protože jsou všechna data uložena lokálně na vašem zařízení:</p>
+        <ul>
+            <li>Odinstalování aplikace odstraní veškerá lokálně uložená data</li>
+            <li>Polohu a předvolby můžete resetovat na obrazovce Nastavení v aplikaci</li>
+        </ul>
+
+        <h2>Změny těchto zásad</h2>
+        <p>Tyto zásady ochrany osobních údajů můžeme čas od času aktualizovat. Veškeré změny budou zveřejněny na této stránce s aktualizovaným datem revize.</p>
+
+        <h2>Kontakt</h2>
+        <p>Pokud máte dotazy týkající se těchto zásad ochrany osobních údajů, kontaktujte nás na:</p>
+        <p><a href="mailto:contact@yasserhamek.com">contact@yasserhamek.com</a></p>
+    </div>
+</body>
+</html>

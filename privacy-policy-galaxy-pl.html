@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>أذان الصلاة: Azan al-Salat - Polityka prywatności</title>
+    <style>
+        :root {
+            --bg-color: #f5f5f7;
+            --text-color: #1d1d1f;
+            --accent-color: #1A3C34;
+            --card-bg: #ffffff;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: var(--card-bg);
+            border-radius: 16px;
+            padding: 40px;
+        }
+        h1 { color: var(--accent-color); margin-bottom: 10px; font-size: 2em; }
+        h2 { color: var(--accent-color); margin: 30px 0 15px; font-size: 1.3em; }
+        .date { color: #666; margin-bottom: 30px; }
+        p, li { margin-bottom: 12px; }
+        ul { padding-left: 25px; }
+        a { color: var(--accent-color); }
+        .highlight {
+            background: rgba(200,169,81,0.12);
+            padding: 15px;
+            border-radius: 8px;
+            margin: 20px 0;
+            border-left: 3px solid #C8A951;
+        }
+        .lang-switcher {
+            text-align: right;
+            margin-bottom: 20px;
+        }
+        .lang-switcher select {
+            padding: 8px 12px;
+            border-radius: 8px;
+            border: 1px solid #ddd;
+            background: white;
+            font-size: 14px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="lang-switcher">
+            <select onchange="window.location.href=this.value">
+                <option value="privacy-policy-galaxy.html">English</option>
+                <option value="privacy-policy-galaxy-af.html">Afrikaans</option>
+                <option value="privacy-policy-galaxy-sq.html">Shqip</option>
+                <option value="privacy-policy-galaxy-am.html">ሀመር</option>
+                <option value="privacy-policy-galaxy-ar.html">العربية</option>
+                <option value="privacy-policy-galaxy-hy.html">Հայերեն</option>
+                <option value="privacy-policy-galaxy-az.html">Azərbayccan</option>
+                <option value="privacy-policy-galaxy-eu.html">Euskara</option>
+                <option value="privacy-policy-galaxy-be.html">Беларуская</option>
+                <option value="privacy-policy-galaxy-bn.html">বাংলা</option>
+                <option value="privacy-policy-galaxy-bg.html">Български</option>
+                <option value="privacy-policy-galaxy-my.html">မြန်မာ</option>
+                <option value="privacy-policy-galaxy-ca.html">Català</option>
+                <option value="privacy-policy-galaxy-zh-CN.html">简体中文</option>
+                <option value="privacy-policy-galaxy-zh-HK.html">中文(香港)</option>
+                <option value="privacy-policy-galaxy-zh-TW.html">繁體中文</option>
+                <option value="privacy-policy-galaxy-hr.html">Hrvatski</option>
+                <option value="privacy-policy-galaxy-cs.html">Čeština</option>
+                <option value="privacy-policy-galaxy-da.html">Dansk</option>
+                <option value="privacy-policy-galaxy-nl.html">Nederlands</option>
+                <option value="privacy-policy-galaxy-et.html">Eesti</option>
+                <option value="privacy-policy-galaxy-fil.html">Filipino</option>
+                <option value="privacy-policy-galaxy-fi.html">Suomi</option>
+                <option value="privacy-policy-galaxy-fr.html">Français</option>
+                <option value="privacy-policy-galaxy-fr-CA.html">Français (Canada)</option>
+                <option value="privacy-policy-galaxy-gl.html">Galego</option>
+                <option value="privacy-policy-galaxy-ka.html">ქართული</option>
+                <option value="privacy-policy-galaxy-de.html">Deutsch</option>
+                <option value="privacy-policy-galaxy-el.html">Ελληνικά</option>
+                <option value="privacy-policy-galaxy-gu.html">ગુજરાતી</option>
+                <option value="privacy-policy-galaxy-hi.html">हिन्दी</option>
+                <option value="privacy-policy-galaxy-hu.html">Magyar</option>
+                <option value="privacy-policy-galaxy-is.html">Íslenska</option>
+                <option value="privacy-policy-galaxy-id.html">Bahasa Indonesia</option>
+                <option value="privacy-policy-galaxy-it.html">Italiano</option>
+                <option value="privacy-policy-galaxy-ja.html">日本語</option>
+                <option value="privacy-policy-galaxy-kn.html">ಕನ್ನಡ</option>
+                <option value="privacy-policy-galaxy-kk.html">Қазақ</option>
+                <option value="privacy-policy-galaxy-km.html">ខ្មែរ</option>
+                <option value="privacy-policy-galaxy-ko.html">한국어</option>
+                <option value="privacy-policy-galaxy-ky.html">Кыргызча</option>
+                <option value="privacy-policy-galaxy-lo.html">ລາວ</option>
+                <option value="privacy-policy-galaxy-lv.html">Latviešu</option>
+                <option value="privacy-policy-galaxy-lt.html">Lietuvių</option>
+                <option value="privacy-policy-galaxy-mk.html">Македонски</option>
+                <option value="privacy-policy-galaxy-ms.html">Bahasa Melayu</option>
+                <option value="privacy-policy-galaxy-ml.html">മലയാളം</option>
+                <option value="privacy-policy-galaxy-mr.html">मराठी</option>
+                <option value="privacy-policy-galaxy-mn.html">Монгол</option>
+                <option value="privacy-policy-galaxy-ne.html">नेपाली</option>
+                <option value="privacy-policy-galaxy-no.html">Norsk</option>
+                <option value="privacy-policy-galaxy-fa.html">فارسی</option>
+                <option value="privacy-policy-galaxy-pl.html" selected>Polski</option>
+                <option value="privacy-policy-galaxy-pt-BR.html">Português (Brasil)</option>
+                <option value="privacy-policy-galaxy-pt-PT.html">Português (Portugal)</option>
+                <option value="privacy-policy-galaxy-pa.html">ਪੰਜਾਬੀ</option>
+                <option value="privacy-policy-galaxy-ro.html">Română</option>
+                <option value="privacy-policy-galaxy-rm.html">Rumantsch</option>
+                <option value="privacy-policy-galaxy-ru.html">Русский</option>
+                <option value="privacy-policy-galaxy-sr.html">Српски</option>
+                <option value="privacy-policy-galaxy-si.html">සිංහල</option>
+                <option value="privacy-policy-galaxy-sk.html">Slovenčina</option>
+                <option value="privacy-policy-galaxy-sl.html">Slovenščina</option>
+                <option value="privacy-policy-galaxy-es-419.html">Español (Latinoamérica)</option>
+                <option value="privacy-policy-galaxy-es-ES.html">Español (España)</option>
+                <option value="privacy-policy-galaxy-es-US.html">Español (EE. UU.)</option>
+                <option value="privacy-policy-galaxy-sw.html">Kiswahili</option>
+                <option value="privacy-policy-galaxy-sv.html">Svenska</option>
+                <option value="privacy-policy-galaxy-ta.html">தமிழ்</option>
+                <option value="privacy-policy-galaxy-te.html">తెలుగు</option>
+                <option value="privacy-policy-galaxy-th.html">ไทย</option>
+                <option value="privacy-policy-galaxy-tr.html">Türkçe</option>
+                <option value="privacy-policy-galaxy-uk.html">Українська</option>
+                <option value="privacy-policy-galaxy-ur.html">اردو</option>
+                <option value="privacy-policy-galaxy-vi.html">Tiếng Việt</option>
+                <option value="privacy-policy-galaxy-zu.html">isiZulu</option>
+            </select>
+        </div>
+
+        <h1>Polityka prywatności أذان الصلاة: Azan al-Salat</h1>
+        <p class="date">Ostatnia aktualizacja: kwiecień 2026</p>
+
+        <div class="highlight">
+            <strong>Podsumowanie:</strong> أذان الصلاة: أذان الصلاة: أذان الصلاة: أذان الصلاة: Athan al Salat szanuje Twoją prywatność. Nie gromadzimy danych osobowych na poziomie konta, takich jak imiona i nazwiska, adresy e-mail lub identyfikatory reklamowe. Niektóre funkcje oparte na lokalizacji mogą wysyłać współrzędne GPS do usług stron trzecich w celu obliczenia czasu modlitwy lub rozpoznania nazw miast. </div>
+
+        <h2>Informacje, których nie zbieramy</h2>
+        <p>أذان الصلاة: أذان الصلاة: أذان الصلاة: أذان الصلاة: Athan al Salat nie zbiera danych osobowych na poziomie konta. W szczególności nie zbieramy:</p>
+        <ul>
+            <li>Imion i nazwisk, adresów e-mail ani danych kontaktowych</li>
+            <li>Identyfikatorów urządzeń w celach śledzenia</li>
+            <li>Analityki użytkowania ani danych behawioralnych</li>
+            <li>Żadnych danych w celach reklamowych</li>
+        </ul>
+
+        <h2>Lokalne przechowywanie danych</h2>
+        <p>أذان الصلاة: أذان الصلاة: أذان الصلاة: أذان الصلاة: Athan al Salat przechowuje następujące dane lokalnie na Twoim urządzeniu za pomocą Android SharedPreferences. Te ustawienia są zapisywane na urządzeniu, chociaż funkcje oparte na lokalizacji mogą również w razie potrzeby wysyłać współrzędne GPS do usług innych firm:</p>
+        <ul>
+            <li><strong>Lokalizacja:</strong> Współrzędne GPS i nazwa miasta, zbuforowane do obliczania i wyświetlania czasów modlitwy</li>
+            <li><strong>Ustawienia modlitwy:</strong> Metoda obliczania, dźwięki adanu, preferencje powiadomień i ikamy</li>
+            <li><strong>Pamięć podręczna modlitwy:</strong> 30-dniowa pamięć podręczna czasów modlitwy offline</li>
+            <li><strong>Koran:</strong> Preferencje tłumaczeń, zbuforowane tłumaczenia, zakładki i rozmiar czcionki</li>
+            <li><strong>Ustawienia aplikacji:</strong> Język, tryb ciemny i status wprowadzenia</li>
+            <li><strong>Status zakupów:</strong> Rejestr zakupów w aplikacji</li>
+        </ul>
+
+        <h2>Żądania sieciowe</h2>
+        <p>Poniżej znajduje się pełna lista żądań sieciowych, które może wysyłać aplikacja. Do tych żądań nie są dołączone żadne bezpośrednie identyfikatory, takie jak imię i nazwisko, adres e-mail lub identyfikator urządzenia:</p>
+        <ul>
+            <li><strong>Aladhan API</strong> (aladhan.com) — Używany jako rezerwowy tylko wtedy, gdy obliczenia modlitwy offline nie powiodą się. Wysyła współrzędne GPS i metodę obliczeń w celu obliczenia czasu modlitwy.</li>
+            <li><strong>AlQuran Cloud API</strong> (alquran.cloud) — Pobiera tłumaczenia Koranu przy pierwszym użyciu. Wysyła tylko numer rozdziału i kod tłumaczenia.</li>
+            <li><strong>Photon / Nominatim / OpenStreetMap</strong> — Używane jednorazowo do zamiany Twoich współrzędnych GPS na nazwę miasta w celu wyświetlenia. Nie jest wysyłany żaden trwały identyfikator.</li>
+            <li><strong>Sprawdzanie DNS</strong> (dns.google) — Standardowe wyszukiwanie DNS używane w tle do sprawdzania dostępności internetu przed odświeżeniem pamięci podręcznej modlitwy. Nie są wysyłane żadne dane aplikacji.</li>
+        </ul>
+
+        <h2>Zakupy w aplikacji</h2>
+        <p>أذان الصلاة: Azan al-Salat oferuje opcjonalne zakupy w aplikacji przetwarzane wyłącznie przez Samsung Galaxy Store przy użyciu Samsung In-App Purchase (Samsung IAP). Rejestrami zakupów zarządza Samsung, a są one przechowywane lokalnie na Twoim urządzeniu.</p>
+
+        <h2>Usługi stron trzecich</h2>
+        <p>أذان الصلاة: Azan al-Salat nie integruje żadnych usług analitycznych, reklamowych ani raportowania awarii stron trzecich. Nie ma żadnego SDK analitycznego ani reklamowego. Jedyną zewnętrzną usługą używaną do zakupów jest Samsung In-App Purchase (Samsung IAP).</p>
+
+        <h2>Prywatność dzieci</h2>
+        <p>أذان الصلاة: أذان الصلاة: أذان الصلاة: أذان الصلاة: Athan al Salat nie zbiera świadomie danych osobowych na poziomie konta od dzieci i dorosłych.</p>
+
+        <h2>Usuwanie danych</h2>
+        <p>Ponieważ wszystkie dane są przechowywane lokalnie na Twoim urządzeniu:</p>
+        <ul>
+            <li>Odinstalowanie aplikacji usuwa wszystkie lokalnie przechowywane dane</li>
+            <li>Możesz zresetować lokalizację i preferencje z ekranu Ustawień aplikacji</li>
+        </ul>
+
+        <h2>Zmiany w tej polityce</h2>
+        <p>Możemy od czasu do czasu aktualizować tę politykę prywatności. Wszelkie zmiany zostaną opublikowane na tej stronie z zaktualizowaną datą weryfikacji.</p>
+
+        <h2>Kontakt</h2>
+        <p>Jeśli masz pytania dotyczące tej polityki prywatności, skontaktuj się z nami:</p>
+        <p><a href="mailto:contact@yasserhamek.com">contact@yasserhamek.com</a></p>
+    </div>
+</body>
+</html>

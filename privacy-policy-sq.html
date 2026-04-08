@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>أذان الصلاة: Azan al Salat - Politika e Privatësisë</title>
+    <style>
+        :root {
+            --bg-color: #f5f5f7;
+            --text-color: #1d1d1f;
+            --accent-color: #1A3C34;
+            --card-bg: #ffffff;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: var(--card-bg);
+            border-radius: 16px;
+            padding: 40px;
+        }
+        h1 { color: var(--accent-color); margin-bottom: 10px; font-size: 2em; }
+        h2 { color: var(--accent-color); margin: 30px 0 15px; font-size: 1.3em; }
+        .date { color: #666; margin-bottom: 30px; }
+        p, li { margin-bottom: 12px; }
+        ul { padding-left: 25px; }
+        a { color: var(--accent-color); }
+        .highlight {
+            background: rgba(200,169,81,0.12);
+            padding: 15px;
+            border-radius: 8px;
+            margin: 20px 0;
+            border-left: 3px solid #C8A951;
+        }
+        .lang-switcher {
+            text-align: right;
+            margin-bottom: 20px;
+        }
+        .lang-switcher select {
+            padding: 8px 12px;
+            border-radius: 8px;
+            border: 1px solid #ddd;
+            background: white;
+            font-size: 14px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="lang-switcher">
+            <select onchange="window.location.href=this.value">
+                <option value="privacy-policy.html">English</option>
+                <option value="privacy-policy-af.html">Afrikaans</option>
+                <option value="privacy-policy-sq.html" selected>Shqip</option>
+                <option value="privacy-policy-am.html">ሀመር</option>
+                <option value="privacy-policy-ar.html">العربية</option>
+                <option value="privacy-policy-hy.html">Հայերեն</option>
+                <option value="privacy-policy-az.html">Azərbayccan</option>
+                <option value="privacy-policy-eu.html">Euskara</option>
+                <option value="privacy-policy-be.html">Беларуская</option>
+                <option value="privacy-policy-bn.html">বাংলা</option>
+                <option value="privacy-policy-bg.html">Български</option>
+                <option value="privacy-policy-my.html">မြန်မာ</option>
+                <option value="privacy-policy-ca.html">Català</option>
+                <option value="privacy-policy-zh-CN.html">简体中文</option>
+                <option value="privacy-policy-zh-HK.html">中文(香港)</option>
+                <option value="privacy-policy-zh-TW.html">繁體中文</option>
+                <option value="privacy-policy-hr.html">Hrvatski</option>
+                <option value="privacy-policy-cs.html">Čeština</option>
+                <option value="privacy-policy-da.html">Dansk</option>
+                <option value="privacy-policy-nl.html">Nederlands</option>
+                <option value="privacy-policy-et.html">Eesti</option>
+                <option value="privacy-policy-fil.html">Filipino</option>
+                <option value="privacy-policy-fi.html">Suomi</option>
+                <option value="privacy-policy-fr.html">Français</option>
+                <option value="privacy-policy-fr-CA.html">Français (Canada)</option>
+                <option value="privacy-policy-gl.html">Galego</option>
+                <option value="privacy-policy-ka.html">ქართული</option>
+                <option value="privacy-policy-de.html">Deutsch</option>
+                <option value="privacy-policy-el.html">Ελληνικά</option>
+                <option value="privacy-policy-gu.html">ગુજરાતી</option>
+                <option value="privacy-policy-hi.html">हिन्दी</option>
+                <option value="privacy-policy-hu.html">Magyar</option>
+                <option value="privacy-policy-is.html">Íslenska</option>
+                <option value="privacy-policy-id.html">Bahasa Indonesia</option>
+                <option value="privacy-policy-it.html">Italiano</option>
+                <option value="privacy-policy-ja.html">日本語</option>
+                <option value="privacy-policy-kn.html">ಕನ್ನಡ</option>
+                <option value="privacy-policy-kk.html">Қазақ</option>
+                <option value="privacy-policy-km.html">ខ្មែរ</option>
+                <option value="privacy-policy-ko.html">한국어</option>
+                <option value="privacy-policy-ky.html">Кыргызча</option>
+                <option value="privacy-policy-lo.html">ລາວ</option>
+                <option value="privacy-policy-lv.html">Latviešu</option>
+                <option value="privacy-policy-lt.html">Lietuvių</option>
+                <option value="privacy-policy-mk.html">Македонски</option>
+                <option value="privacy-policy-ms.html">Bahasa Melayu</option>
+                <option value="privacy-policy-ml.html">മലയാളം</option>
+                <option value="privacy-policy-mr.html">मराठी</option>
+                <option value="privacy-policy-mn.html">Монгол</option>
+                <option value="privacy-policy-ne.html">नेपाली</option>
+                <option value="privacy-policy-no.html">Norsk</option>
+                <option value="privacy-policy-fa.html">فارسی</option>
+                <option value="privacy-policy-pl.html">Polski</option>
+                <option value="privacy-policy-pt-BR.html">Português (Brasil)</option>
+                <option value="privacy-policy-pt-PT.html">Português (Portugal)</option>
+                <option value="privacy-policy-pa.html">ਪੰਜਾਬੀ</option>
+                <option value="privacy-policy-ro.html">Română</option>
+                <option value="privacy-policy-rm.html">Rumantsch</option>
+                <option value="privacy-policy-ru.html">Русский</option>
+                <option value="privacy-policy-sr.html">Српски</option>
+                <option value="privacy-policy-si.html">සිංහල</option>
+                <option value="privacy-policy-sk.html">Slovenčina</option>
+                <option value="privacy-policy-sl.html">Slovenščina</option>
+                <option value="privacy-policy-es-419.html">Español (Latinoamérica)</option>
+                <option value="privacy-policy-es-ES.html">Español (España)</option>
+                <option value="privacy-policy-es-US.html">Español (EE. UU.)</option>
+                <option value="privacy-policy-sw.html">Kiswahili</option>
+                <option value="privacy-policy-sv.html">Svenska</option>
+                <option value="privacy-policy-ta.html">தமிழ்</option>
+                <option value="privacy-policy-te.html">తెలుగు</option>
+                <option value="privacy-policy-th.html">ไทย</option>
+                <option value="privacy-policy-tr.html">Türkçe</option>
+                <option value="privacy-policy-uk.html">Українська</option>
+                <option value="privacy-policy-ur.html">اردو</option>
+                <option value="privacy-policy-vi.html">Tiếng Việt</option>
+                <option value="privacy-policy-zu.html">isiZulu</option>
+            </select>
+        </div>
+
+        <h1>Politika e Privatësisë e أذان الصلاة: Azan al Salat</h1>
+        <p class="date">Përditësuar së fundmi: Prill 2026</p>
+
+        <div class="highlight">
+            <strong>Përmbledhje:</strong> أذان الصلاة: Azan al Salat respekton privatësinë tuaj. Ne nuk mbledhim të dhëna personale të nivelit të llogarisë si emrat, adresat e emailit ose identifikuesit e reklamave. Disa veçori të bazuara në vendndodhje mund t'i dërgojnë koordinatat tuaja GPS te shërbimet e palëve të treta për të llogaritur kohën e lutjes ose për të zgjidhur emrat e qyteteve. </div>
+
+        <h2>Informacioni që nuk mbledhim</h2>
+        <p>أذان الصلاة: Azan al Salat nuk mbledh informacione personale në nivel llogarie. Konkretisht, ne nuk mbledhim:</p>
+        <ul>
+            <li>Emra, adresa emaili ose informacion kontakti</li>
+            <li>Identifikues të pajisjes për qëllime gjurmimi</li>
+            <li>Analitikë të përdorimit ose të dhëna sjelljeje</li>
+            <li>Asnjë të dhënë për qëllime reklamimi</li>
+        </ul>
+
+        <h2>Ruajtja lokale e të dhënave</h2>
+        <p>أذان الصلاة: Azan al Salat ruan të dhënat e mëposhtme në nivel lokal në pajisjen tuaj duke përdorur iOS UserDefaults. Këto cilësime ruhen në pajisje, megjithëse veçoritë e bazuara në vendndodhje mund të dërgojnë gjithashtu koordinatat tuaja GPS te shërbimet e palëve të treta kur nevojitet:</p>
+        <ul>
+            <li><strong>Vendndodhja:</strong> Koordinatat GPS dhe emri i qytetit, të ruajtura në cache për llogaritjen dhe shfaqjen e kohëve të namazit</li>
+            <li><strong>Cilësimet e namazit:</strong> Metoda e llogaritjes, tingujt e ezanit, preferencat e njoftimeve dhe iqamës</li>
+            <li><strong>Cache i namazit:</strong> Cache 30-ditor i kohëve të namazit pa internet</li>
+            <li><strong>Kurani:</strong> Preferencat e përkthimit, përkthimet e ruajtura në cache, faqerojtësit dhe madhësia e fontit</li>
+            <li><strong>Cilësimet e aplikacionit:</strong> Gjuha, mënyra e errët dhe statusi i prezantimit</li>
+            <li><strong>Statusi i blerjes:</strong> Regjistrimi i blerjeve brenda aplikacionit</li>
+        </ul>
+
+        <h2>Kërkesat e rrjetit</h2>
+        <p>Më poshtë është lista e plotë e kërkesave të rrjetit që aplikacioni mund të bëjë. Asnjë identifikues i drejtpërdrejtë si emri, adresa e emailit ose ID-ja juaj e pajisjes nuk u janë bashkangjitur këtyre kërkesave:</p>
+        <ul>
+            <li><strong>Aladhan API</strong> (aladhan.com) — Përdoret si rezervë vetëm nëse llogaritja e lutjes jashtë linje dështon. Dërgon koordinatat tuaja GPS dhe metodën e llogaritjes për të llogaritur kohët e lutjes.</li>
+            <li><strong>AlQuran Cloud API</strong> (alquran.cloud) — Merr përkthimet e Kuranit gjatë përdorimit të parë. Dërgon vetëm numrin e kapitullit dhe kodin e përkthimit.</li>
+            <li><strong>Photon / Nominatim / OpenStreetMap</strong> — Përdoret një herë për të shndërruar koordinatat tuaja GPS në emër qyteti për shfaqje. Nuk dërgohet asnjë identifikues i përhershëm.</li>
+            <li><strong>Kontrolli DNS</strong> (dns.google) — Një kërkim standard DNS i përdorur në sfond për të kontrolluar disponueshmërinë e internetit para se të rifreskojë cache-in e namazit. Nuk dërgohen të dhëna aplikacioni.</li>
+        </ul>
+
+        <h2>Blerjet brenda aplikacionit</h2>
+        <p>أذان الصلاة: Azan al Salat ofron blerje opsionale brenda aplikacionit të përpunuara tërësisht përmes App Store të Apple duke përdorur StoreKit. Ne nuk marrim apo ruajmë asnjë informacion pagese. Të dhënat e blerjeve menaxhohen nga Apple dhe ruhen lokalisht në pajisjen tuaj.</p>
+
+        <h2>Shërbimet e palëve të treta</h2>
+        <p>أذان الصلاة: Azan al Salat nuk integron asnjë shërbim analitike, reklamimi ose raportimi të dështimeve të palëve të treta. Nuk ka asnjë SDK analitike ose reklamimi. Shërbimi i vetëm i jashtëm i përdorur për blerjet është StoreKit i Apple.</p>
+
+        <h2>Privatësia e fëmijëve</h2>
+        <p>أذان الصلاة: Azan al Salat nuk mbledh me vetëdije informacione personale të nivelit të llogarisë nga fëmijët ose të rriturit.</p>
+
+        <h2>Fshirja e të dhënave</h2>
+        <p>Meqenëse të gjitha të dhënat ruhen lokalisht në pajisjen tuaj:</p>
+        <ul>
+            <li>Çinstalimet e aplikacionit heq të gjitha të dhënat e ruajtura lokalisht</li>
+            <li>Mund të rivendosni vendndodhjen dhe preferencat nga ekrani i Cilësimeve të aplikacionit</li>
+        </ul>
+
+        <h2>Ndryshimet në këtë politikë</h2>
+        <p>Ne mund ta përditësojmë këtë politikë privatësie herë pas here. Çdo ndryshim do të postohet në këtë faqe me një datë rishikimi të përditësuar.</p>
+
+        <h2>Kontakti</h2>
+        <p>Nëse keni pyetje rreth kësaj politike privatësie, ju lutemi na kontaktoni në:</p>
+        <p><a href="mailto:contact@yasserhamek.com">contact@yasserhamek.com</a></p>
+    </div>
+</body>
+</html>

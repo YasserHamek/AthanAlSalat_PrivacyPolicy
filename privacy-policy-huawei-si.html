@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="si">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>أذان الصلاة: අසාන් අල් සලාත් - පෞද්ගලිකත්ව ප්‍රතිපත්තිය</title>
+    <style>
+        :root {
+            --bg-color: #f5f5f7;
+            --text-color: #1d1d1f;
+            --accent-color: #1A3C34;
+            --card-bg: #ffffff;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: var(--card-bg);
+            border-radius: 16px;
+            padding: 40px;
+        }
+        h1 { color: var(--accent-color); margin-bottom: 10px; font-size: 2em; }
+        h2 { color: var(--accent-color); margin: 30px 0 15px; font-size: 1.3em; }
+        .date { color: #666; margin-bottom: 30px; }
+        p, li { margin-bottom: 12px; }
+        ul { padding-left: 25px; }
+        a { color: var(--accent-color); }
+        .highlight {
+            background: rgba(200,169,81,0.12);
+            padding: 15px;
+            border-radius: 8px;
+            margin: 20px 0;
+            border-left: 3px solid #C8A951;
+        }
+        .lang-switcher {
+            text-align: right;
+            margin-bottom: 20px;
+        }
+        .lang-switcher select {
+            padding: 8px 12px;
+            border-radius: 8px;
+            border: 1px solid #ddd;
+            background: white;
+            font-size: 14px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="lang-switcher">
+            <select onchange="window.location.href=this.value">
+                <option value="privacy-policy-huawei.html">English</option>
+                <option value="privacy-policy-huawei-af.html">Afrikaans</option>
+                <option value="privacy-policy-huawei-sq.html">Shqip</option>
+                <option value="privacy-policy-huawei-am.html">ሀመር</option>
+                <option value="privacy-policy-huawei-ar.html">العربية</option>
+                <option value="privacy-policy-huawei-hy.html">Հայերեն</option>
+                <option value="privacy-policy-huawei-az.html">Azərbayccan</option>
+                <option value="privacy-policy-huawei-eu.html">Euskara</option>
+                <option value="privacy-policy-huawei-be.html">Беларуская</option>
+                <option value="privacy-policy-huawei-bn.html">বাংলা</option>
+                <option value="privacy-policy-huawei-bg.html">Български</option>
+                <option value="privacy-policy-huawei-my.html">မြန်မာ</option>
+                <option value="privacy-policy-huawei-ca.html">Català</option>
+                <option value="privacy-policy-huawei-zh-CN.html">简体中文</option>
+                <option value="privacy-policy-huawei-zh-HK.html">中文(香港)</option>
+                <option value="privacy-policy-huawei-zh-TW.html">繁體中文</option>
+                <option value="privacy-policy-huawei-hr.html">Hrvatski</option>
+                <option value="privacy-policy-huawei-cs.html">Čeština</option>
+                <option value="privacy-policy-huawei-da.html">Dansk</option>
+                <option value="privacy-policy-huawei-nl.html">Nederlands</option>
+                <option value="privacy-policy-huawei-et.html">Eesti</option>
+                <option value="privacy-policy-huawei-fil.html">Filipino</option>
+                <option value="privacy-policy-huawei-fi.html">Suomi</option>
+                <option value="privacy-policy-huawei-fr.html">Français</option>
+                <option value="privacy-policy-huawei-fr-CA.html">Français (Canada)</option>
+                <option value="privacy-policy-huawei-gl.html">Galego</option>
+                <option value="privacy-policy-huawei-ka.html">ქართული</option>
+                <option value="privacy-policy-huawei-de.html">Deutsch</option>
+                <option value="privacy-policy-huawei-el.html">Ελληνικά</option>
+                <option value="privacy-policy-huawei-gu.html">ગુજરાતી</option>
+                <option value="privacy-policy-huawei-hi.html">हिन्दी</option>
+                <option value="privacy-policy-huawei-hu.html">Magyar</option>
+                <option value="privacy-policy-huawei-is.html">Íslenska</option>
+                <option value="privacy-policy-huawei-id.html">Bahasa Indonesia</option>
+                <option value="privacy-policy-huawei-it.html">Italiano</option>
+                <option value="privacy-policy-huawei-ja.html">日本語</option>
+                <option value="privacy-policy-huawei-kn.html">ಕನ್ನಡ</option>
+                <option value="privacy-policy-huawei-kk.html">Қазақ</option>
+                <option value="privacy-policy-huawei-km.html">ខ្មែរ</option>
+                <option value="privacy-policy-huawei-ko.html">한국어</option>
+                <option value="privacy-policy-huawei-ky.html">Кыргызча</option>
+                <option value="privacy-policy-huawei-lo.html">ລາວ</option>
+                <option value="privacy-policy-huawei-lv.html">Latviešu</option>
+                <option value="privacy-policy-huawei-lt.html">Lietuvių</option>
+                <option value="privacy-policy-huawei-mk.html">Македонски</option>
+                <option value="privacy-policy-huawei-ms.html">Bahasa Melayu</option>
+                <option value="privacy-policy-huawei-ml.html">മലയാളം</option>
+                <option value="privacy-policy-huawei-mr.html">मराठी</option>
+                <option value="privacy-policy-huawei-mn.html">Монгол</option>
+                <option value="privacy-policy-huawei-ne.html">नेपाली</option>
+                <option value="privacy-policy-huawei-no.html">Norsk</option>
+                <option value="privacy-policy-huawei-fa.html">فارسی</option>
+                <option value="privacy-policy-huawei-pl.html">Polski</option>
+                <option value="privacy-policy-huawei-pt-BR.html">Português (Brasil)</option>
+                <option value="privacy-policy-huawei-pt-PT.html">Português (Portugal)</option>
+                <option value="privacy-policy-huawei-pa.html">ਪੰਜਾਬੀ</option>
+                <option value="privacy-policy-huawei-ro.html">Română</option>
+                <option value="privacy-policy-huawei-rm.html">Rumantsch</option>
+                <option value="privacy-policy-huawei-ru.html">Русский</option>
+                <option value="privacy-policy-huawei-sr.html">Српски</option>
+                <option value="privacy-policy-huawei-si.html" selected>සිංහල</option>
+                <option value="privacy-policy-huawei-sk.html">Slovenčina</option>
+                <option value="privacy-policy-huawei-sl.html">Slovenščina</option>
+                <option value="privacy-policy-huawei-es-419.html">Español (Latinoamérica)</option>
+                <option value="privacy-policy-huawei-es-ES.html">Español (España)</option>
+                <option value="privacy-policy-huawei-es-US.html">Español (EE. UU.)</option>
+                <option value="privacy-policy-huawei-sw.html">Kiswahili</option>
+                <option value="privacy-policy-huawei-sv.html">Svenska</option>
+                <option value="privacy-policy-huawei-ta.html">தமிழ்</option>
+                <option value="privacy-policy-huawei-te.html">తెలుగు</option>
+                <option value="privacy-policy-huawei-th.html">ไทย</option>
+                <option value="privacy-policy-huawei-tr.html">Türkçe</option>
+                <option value="privacy-policy-huawei-uk.html">Українська</option>
+                <option value="privacy-policy-huawei-ur.html">اردو</option>
+                <option value="privacy-policy-huawei-vi.html">Tiếng Việt</option>
+                <option value="privacy-policy-huawei-zu.html">isiZulu</option>
+            </select>
+        </div>
+
+        <h1>أذان الصلاة: අසාන් අල් සලාත් — පෞද්ගලිකත්ව ප්‍රතිපත්තිය</h1>
+        <p class="date">අවසන් යාවත්කාලීන කළේ: අප්‍රේල් 2026</p>
+
+        <div class="highlight">
+            <strong>සාරාංශය:</strong> أذان الصلاة: අසාන් අල් සලාත් ඔබේ පෞද්ගලිකත්වයට ගරු කරයි. අපි නම්, ඊමේල් ලිපින, හෝ වෙළඳ දැන්වීම් හඳුනාගැනීම් වැනි ගිණුම් මට්ටමේ පුද්ගලික දත්ත රැස් නොකරමු. සමහර ස්ථාන මත පදනම් වූ විශේෂාංග ඔබගේ GPS ඛණ්ඩාංක යාච්ඤාවේ වේලාවන් ගණනය කිරීමට හෝ නගර නම් විසඳීමට තෙවන පාර්ශවීය සේවාවන් වෙත යැවිය හැක. </div>
+
+        <h2>අපි එකතු නොකරන තොරතුරු</h2>
+        <p>أذان الصلاة: අසාන් අල් සලාත් ගිණුම් මට්ටමේ පුද්ගලික තොරතුරු රැස් නොකරයි. විශේෂයෙන්, අපි එකතු කරන්නේ නැහැ:</p>
+        <ul>
+            <li>නම්, ඊ-තැපැල් ලිපින, හෝ සම්බන්ධ කර ගැනීමේ තොරතුරු</li>
+            <li>නිරීක්ෂණ අරමුණු සඳහා උපාංග හඳුනාගැනීම්</li>
+            <li>භාවිත විශ්ලේෂණ හෝ හැසිරීම් දත්ත</li>
+            <li>ප්‍රචාරණ අරමුණු සඳහා ඕනෑම දත්ත</li>
+        </ul>
+
+        <h2>දේශීය දත්ත ගබඩාව</h2>
+        <p>أذان الصلاة: අසාන් අල් සලාත් Android SharedPreferences භාවිතයෙන් පහත දත්ත ඔබගේ උපාංගයේ ස්ථානීයව ගබඩා කරයි. මෙම සිටුවම් උපාංගය මත සුරකිනු ලැබේ, නමුත් අවශ්‍ය විට ස්ථාන-පාදක විශේෂාංග ඔබේ GPS ඛණ්ඩාංක තෙවන පාර්ශවීය සේවා වෙත යැවිය හැක:</p>
+        <ul>
+            <li><strong>ස්ථානය:</strong> GPS좌표 සහ නගරයේ නම, නමාස් කාල ගණනය කිරීම සහ ප්‍රදර්ශනය සඳහා ගබඩා කළේ</li>
+            <li><strong>නමාස් සැකසීම්:</strong> ගණනය කිරීමේ ක්‍රමය, අසාන් ශබ්ද, දැනුම්දීම් සහ ඉකාමා මනාප</li>
+            <li><strong>නමාස් හෝල්ඩිං:</strong> දින 30ක් සඳහා නොනැවතී නමාස් කාල ගබඩාව</li>
+            <li><strong>කුරාන්:</strong> පරිවර්තන මනාප, ගබඩා කළ පරිවර්තන, පොත්ලිච්ච සහ අකුරු ප්‍රමාණය</li>
+            <li><strong>යෙදුම් සැකසීම්:</strong> භාෂාව, අඳුරු ප්‍රකාරය සහ හඳුන්වාදීමේ තත්ත්වය</li>
+            <li><strong>මිලදී ගැනීමේ තත්ත්වය:</strong> යෙදුම් ඇතුළත මිලදී ගැනීම් වාර්තාව</li>
+        </ul>
+
+        <h2>ජාල ඉල්ලීම්</h2>
+        <p>යෙදුම සිදු කළ හැකි ජාල ඉල්ලීම්වල සම්පූර්ණ ලැයිස්තුව පහත දැක්වේ. ඔබගේ නම, ඊමේල් ලිපිනය, හෝ උපාංග හැඳුනුම්පත වැනි සෘජු හඳුනාගැනීම් මෙම ඉල්ලීම්වලට අමුණා නැත:</p>
+        <ul>
+            <li><strong>Aladhan API</strong> (aladhan.com) — නොබැඳි යාච්ඤා ගණනය කිරීම අසාර්ථක වුවහොත් පමණක් පසුබැසීමක් ලෙස භාවිතා වේ. යාච්ඤාවේ වේලාවන් ගණනය කිරීමට ඔබගේ GPS ඛණ්ඩාංක සහ ගණනය කිරීමේ ක්‍රමය යවයි.</li>
+            <li><strong>AlQuran Cloud API</strong> (alquran.cloud) — පළමු භාවිතයේදී කුරාන් පරිවර්තන ලබා ගනී. අධ්‍යාය අංකය සහ පරිවර්තන කේතය පමණක් යවයි.</li>
+            <li><strong>Photon / Nominatim / OpenStreetMap</strong> — ඔබේ GPS좌표 ප්‍රදර්ශනය සඳහා නගරයේ නමකට පරිවර්තනය කිරීමට එක් වරක් භාවිතා කෙරේ. ස්ථිර හඳුනාගැනීමක් නොයවයි.</li>
+            <li><strong>DNS පරීක්ෂාව</strong> (dns.google) — නමාස් ගබඩාව නැවුම් කිරීමට පෙර අන්තර්ජාල ලබාගැනීම පරීක්ෂා කිරීමට පසුබිමේ භාවිතා කෙරෙන සාමාන්‍ය DNS සෙවීමකි. යෙදුම් දත්ත නොයවයි.</li>
+        </ul>
+
+        <h2>යෙදුම ඇතුළත මිලදී ගැනීම්</h2>
+        <p>أذان الصلاة: අසාන් අල් සලාත් Google Play Billing භාවිතයෙන් Google Play Store හරහා සම්පූර්ණයෙන් සකස් කරන ඔෙෙෙෙෙෙ ऐच්ඡික යෙදුම් ඇතුළත මිලදී ගැනීම් ඉදිරිපත් කරයි. මිලදී ගැනීම් වාර්තා Google විසින් කළමනාකරණය කෙරෙන අතර ඔබේ උපාංගයේ දේශීයව ගබඩා කෙරේ.</p>
+
+        <h2>තෙවන පාර්ශ්ව සේවා</h2>
+        <p>أذان الصلاة: අසාන් අල් සලාත් කිසිදු තෙවන පාර්ශ්ව විශ්ලේෂණ, ප්‍රචාරණ, හෝ බිඳ වැටීම් වාර්තාකරණ සේවා ඒකාබද්ධ නොකරයි. විශ්ලේෂණ හෝ ප්‍රචාරණ SDK කිසිවක් නොමැත. මිලදී ගැනීම් සඳහා භාවිතා කරන එකම බාහිර සේවාව Google Play Billing වේ.</p>
+
+        <h2>ළමයින්ගේ පෞද්ගලිකත්වය</h2>
+        <p>أذان الصلاة: අසාන් අල් සලාත් දරුවන්ගෙන් හෝ වැඩිහිටියන්ගෙන් ගිණුම් මට්ටමේ පුද්ගලික තොරතුරු දැනුවත්ව රැස් නොකරයි.</p>
+
+        <h2>දත්ත මකා දැමීම</h2>
+        <p>සියලු දත්ත ඔබේ උපාංගයේ දේශීයව ගබඩා කෙරෙන බැවින්:</p>
+        <ul>
+            <li>යෙදුම අස්ථාපනය කිරීමෙන් දේශීයව ගබඩා කළ සියලු දත්ත ඉවත් වේ</li>
+            <li>යෙදුමේ සැකසීම් තිරයෙන් ස්ථානය සහ මනාප යළි සකසා ගත හැක</li>
+        </ul>
+
+        <h2>මෙම ප්‍රතිපත්තියේ වෙනස්කම්</h2>
+        <p>අපි මේ පෞද්ගලිකත්ව ප්‍රතිපත්තිය වරින් වර යාවත්කාලීන කළ හැකිය. ඕනෑම වෙනස්කමක් යාවත්කාලීන සංශෝධන දිනය සමඟ මෙම පිටුවේ පළ කෙරෙනු ඇත.</p>
+
+        <h2>සම්බන්ධ වීම</h2>
+        <p>මෙම පෞද්ගලිකත්ව ප්‍රතිපත්තිය පිළිබඳ ප්‍රශ්න ඇත්නම්, කරුණාකර අප හා සම්බන්ධ වන්න:</p>
+        <p><a href="mailto:contact@yasserhamek.com">contact@yasserhamek.com</a></p>
+    </div>
+</body>
+</html>

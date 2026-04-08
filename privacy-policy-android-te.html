@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="te">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>أذان الصلاة: అజాన్ అల్ సలాత్ - గోప్యతా విధానం</title>
+    <style>
+        :root {
+            --bg-color: #f5f5f7;
+            --text-color: #1d1d1f;
+            --accent-color: #1A3C34;
+            --card-bg: #ffffff;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: var(--card-bg);
+            border-radius: 16px;
+            padding: 40px;
+        }
+        h1 { color: var(--accent-color); margin-bottom: 10px; font-size: 2em; }
+        h2 { color: var(--accent-color); margin: 30px 0 15px; font-size: 1.3em; }
+        .date { color: #666; margin-bottom: 30px; }
+        p, li { margin-bottom: 12px; }
+        ul { padding-left: 25px; }
+        a { color: var(--accent-color); }
+        .highlight {
+            background: rgba(200,169,81,0.12);
+            padding: 15px;
+            border-radius: 8px;
+            margin: 20px 0;
+            border-left: 3px solid #C8A951;
+        }
+        .lang-switcher {
+            text-align: right;
+            margin-bottom: 20px;
+        }
+        .lang-switcher select {
+            padding: 8px 12px;
+            border-radius: 8px;
+            border: 1px solid #ddd;
+            background: white;
+            font-size: 14px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="lang-switcher">
+            <select onchange="window.location.href=this.value">
+                <option value="privacy-policy-android.html">English</option>
+                <option value="privacy-policy-android-af.html">Afrikaans</option>
+                <option value="privacy-policy-android-sq.html">Shqip</option>
+                <option value="privacy-policy-android-am.html">ሀመር</option>
+                <option value="privacy-policy-android-ar.html">العربية</option>
+                <option value="privacy-policy-android-hy.html">Հայերեն</option>
+                <option value="privacy-policy-android-az.html">Azərbayccan</option>
+                <option value="privacy-policy-android-eu.html">Euskara</option>
+                <option value="privacy-policy-android-be.html">Беларуская</option>
+                <option value="privacy-policy-android-bn.html">বাংলা</option>
+                <option value="privacy-policy-android-bg.html">Български</option>
+                <option value="privacy-policy-android-my.html">မြန်မာ</option>
+                <option value="privacy-policy-android-ca.html">Català</option>
+                <option value="privacy-policy-android-zh-CN.html">简体中文</option>
+                <option value="privacy-policy-android-zh-HK.html">中文(香港)</option>
+                <option value="privacy-policy-android-zh-TW.html">繁體中文</option>
+                <option value="privacy-policy-android-hr.html">Hrvatski</option>
+                <option value="privacy-policy-android-cs.html">Čeština</option>
+                <option value="privacy-policy-android-da.html">Dansk</option>
+                <option value="privacy-policy-android-nl.html">Nederlands</option>
+                <option value="privacy-policy-android-et.html">Eesti</option>
+                <option value="privacy-policy-android-fil.html">Filipino</option>
+                <option value="privacy-policy-android-fi.html">Suomi</option>
+                <option value="privacy-policy-android-fr.html">Français</option>
+                <option value="privacy-policy-android-fr-CA.html">Français (Canada)</option>
+                <option value="privacy-policy-android-gl.html">Galego</option>
+                <option value="privacy-policy-android-ka.html">ქართული</option>
+                <option value="privacy-policy-android-de.html">Deutsch</option>
+                <option value="privacy-policy-android-el.html">Ελληνικά</option>
+                <option value="privacy-policy-android-gu.html">ગુજરાતી</option>
+                <option value="privacy-policy-android-hi.html">हिन्दी</option>
+                <option value="privacy-policy-android-hu.html">Magyar</option>
+                <option value="privacy-policy-android-is.html">Íslenska</option>
+                <option value="privacy-policy-android-id.html">Bahasa Indonesia</option>
+                <option value="privacy-policy-android-it.html">Italiano</option>
+                <option value="privacy-policy-android-ja.html">日本語</option>
+                <option value="privacy-policy-android-kn.html">ಕನ್ನಡ</option>
+                <option value="privacy-policy-android-kk.html">Қазақ</option>
+                <option value="privacy-policy-android-km.html">ខ្មែរ</option>
+                <option value="privacy-policy-android-ko.html">한국어</option>
+                <option value="privacy-policy-android-ky.html">Кыргызча</option>
+                <option value="privacy-policy-android-lo.html">ລາວ</option>
+                <option value="privacy-policy-android-lv.html">Latviešu</option>
+                <option value="privacy-policy-android-lt.html">Lietuvių</option>
+                <option value="privacy-policy-android-mk.html">Македонски</option>
+                <option value="privacy-policy-android-ms.html">Bahasa Melayu</option>
+                <option value="privacy-policy-android-ml.html">മലയാളം</option>
+                <option value="privacy-policy-android-mr.html">मराठी</option>
+                <option value="privacy-policy-android-mn.html">Монгол</option>
+                <option value="privacy-policy-android-ne.html">नेपाली</option>
+                <option value="privacy-policy-android-no.html">Norsk</option>
+                <option value="privacy-policy-android-fa.html">فارسی</option>
+                <option value="privacy-policy-android-pl.html">Polski</option>
+                <option value="privacy-policy-android-pt-BR.html">Português (Brasil)</option>
+                <option value="privacy-policy-android-pt-PT.html">Português (Portugal)</option>
+                <option value="privacy-policy-android-pa.html">ਪੰਜਾਬੀ</option>
+                <option value="privacy-policy-android-ro.html">Română</option>
+                <option value="privacy-policy-android-rm.html">Rumantsch</option>
+                <option value="privacy-policy-android-ru.html">Русский</option>
+                <option value="privacy-policy-android-sr.html">Српски</option>
+                <option value="privacy-policy-android-si.html">සිංහල</option>
+                <option value="privacy-policy-android-sk.html">Slovenčina</option>
+                <option value="privacy-policy-android-sl.html">Slovenščina</option>
+                <option value="privacy-policy-android-es-419.html">Español (Latinoamérica)</option>
+                <option value="privacy-policy-android-es-ES.html">Español (España)</option>
+                <option value="privacy-policy-android-es-US.html">Español (EE. UU.)</option>
+                <option value="privacy-policy-android-sw.html">Kiswahili</option>
+                <option value="privacy-policy-android-sv.html">Svenska</option>
+                <option value="privacy-policy-android-ta.html">தமிழ்</option>
+                <option value="privacy-policy-android-te.html" selected>తెలుగు</option>
+                <option value="privacy-policy-android-th.html">ไทย</option>
+                <option value="privacy-policy-android-tr.html">Türkçe</option>
+                <option value="privacy-policy-android-uk.html">Українська</option>
+                <option value="privacy-policy-android-ur.html">اردو</option>
+                <option value="privacy-policy-android-vi.html">Tiếng Việt</option>
+                <option value="privacy-policy-android-zu.html">isiZulu</option>
+            </select>
+        </div>
+
+        <h1>أذان الصلاة: అజాన్ అల్ సలాత్ గోప్యతా విధానం</h1>
+        <p class="date">చివరిగా నవీకరించబడింది: ఏప్రిల్ 2026</p>
+
+        <div class="highlight">
+            <strong>సారాంశం:</strong> أذان الصلاة: అజాన్ అల్ సలాత్ మీ గోప్యతను గౌరవిస్తుంది. మేము పేర్లు, ఇమెయిల్ చిరునామాలు లేదా అడ్వర్టైజింగ్ ఐడెంటిఫైయర్‌ల వంటి ఖాతా స్థాయి వ్యక్తిగత డేటాను సేకరించము. కొన్ని స్థాన-ఆధారిత ఫీచర్‌లు ప్రార్థన సమయాలను లెక్కించడానికి లేదా నగర పేర్లను పరిష్కరించడానికి మీ GPS కోఆర్డినేట్‌లను మూడవ పక్ష సేవలకు పంపవచ్చు. </div>
+
+        <h2>మేము సేకరించని సమాచారం</h2>
+        <p>أذان الصلاة: అజాన్ అల్ సలాత్ ఖాతా స్థాయి వ్యక్తిగత సమాచారాన్ని సేకరించదు. ప్రత్యేకంగా, మేము సేకరించము:</p>
+        <ul>
+            <li>పేర్లు, ఇమెయిల్ చిరునామాలు లేదా సంప్రదింపు సమాచారం</li>
+            <li>ట్రాకింగ్ ప్రయోజనాల కోసం పరికర గుర్తింపులు</li>
+            <li>వినియోగ విశ్లేషణలు లేదా ప్రవర్తన డేటా</li>
+            <li>ప్రకటన ప్రయోజనాల కోసం ఏదైనా డేటా</li>
+        </ul>
+
+        <h2>స్థానిక డేటా నిల్వ</h2>
+        <p>أذان الصلاة: అజాన్ అల్ సలాత్ Android భాగస్వామ్య ప్రాధాన్యతలను ఉపయోగించి మీ పరికరంలో కింది డేటాను స్థానికంగా నిల్వ చేస్తుంది. ఈ సెట్టింగ్‌లు పరికరంలో సేవ్ చేయబడతాయి, అయితే స్థాన-ఆధారిత లక్షణాలు అవసరమైనప్పుడు మీ GPS కోఆర్డినేట్‌లను మూడవ పక్ష సేవలకు పంపవచ్చు:</p>
+        <ul>
+            <li><strong>స్థానం:</strong> నమాజు సమయ గణన మరియు ప్రదర్శన కోసం కాష్ చేయబడిన GPS కోఆర్డినేట్లు మరియు నగర పేరు</li>
+            <li><strong>నమాజు సెట్టింగులు:</strong> గణన పద్ధతి, అజాన్ శబ్దాలు, నోటిఫికేషన్ మరియు ఇఖామత్ ప్రాధాన్యతలు</li>
+            <li><strong>నమాజు కాష్:</strong> 30 రోజుల ఆఫ్‌లైన్ నమాజు సమయ కాష్</li>
+            <li><strong>ఖురాన్:</strong> అనువాద ప్రాధాన్యతలు, కాష్ చేయబడిన అనువాదాలు, బుక్‌మార్క్‌లు మరియు ఫాంట్ పరిమాణం</li>
+            <li><strong>యాప్ సెట్టింగులు:</strong> భాష, డార్క్ మోడ్ మరియు ఆన్‌బోర్డింగ్ స్థితి</li>
+            <li><strong>కొనుగోలు స్థితి:</strong> యాప్-లో కొనుగోళ్ల రికార్డు</li>
+        </ul>
+
+        <h2>నెట్‌వర్క్ అభ్యర్థనలు</h2>
+        <p>యాప్ చేసే నెట్‌వర్క్ అభ్యర్థనల పూర్తి జాబితా క్రిందిది. ఈ అభ్యర్థనలకు మీ పేరు, ఇమెయిల్ చిరునామా లేదా పరికర ID వంటి డైరెక్ట్ ఐడెంటిఫైయర్‌లు ఏవీ జోడించబడలేదు:</p>
+        <ul>
+            <li><strong>Aladhan API</strong> (aladhan.com) — ఆఫ్‌లైన్ ప్రార్థన గణన విఫలమైతే మాత్రమే ఫాల్‌బ్యాక్‌గా ఉపయోగించబడుతుంది. ప్రార్థన సమయాలను లెక్కించడానికి మీ GPS కోఆర్డినేట్‌లను మరియు గణన పద్ధతిని పంపుతుంది.</li>
+            <li><strong>AlQuran Cloud API</strong> (alquran.cloud) — మొదటిసారి ఉపయోగంలో ఖురాన్ అనువాదాలను పొందుతుంది. అధ్యాయ సంఖ్య మరియు అనువాద కోడ్‌ను మాత్రమే పంపుతుంది.</li>
+            <li><strong>Photon / Nominatim / OpenStreetMap</strong> — ప్రదర్శన కోసం మీ GPS కోఆర్డినేట్లను నగర పేరుగా మార్చడానికి ఒకసారి మాత్రమే ఉపయోగించబడుతుంది. శాశ్వత గుర్తింపు ఏదీ పంపబడదు.</li>
+            <li><strong>DNS తనిఖీ</strong> (dns.google) — నమాజు కాష్‌ను రిఫ్రెష్ చేయడానికి ముందు ఇంటర్నెట్ లభ్యతను తనిఖీ చేయడానికి నేపథ్యంలో ఉపయోగించే ప్రామాణిక DNS లుకప్. యాప్ డేటా ఏదీ పంపబడదు.</li>
+        </ul>
+
+        <h2>యాప్-లో కొనుగోళ్లు</h2>
+        <p>أذان الصلاة: అజాన్ అల్ సలాత్ Google Play Billing ఉపయోగించి Google Play Store ద్వారా పూర్తిగా ప్రాసెస్ చేయబడిన ఐచ్ఛిక యాప్-లో కొనుగోళ్లను అందిస్తుంది. కొనుగోలు రికార్డులు Google చే నిర్వహించబడతాయి మరియు మీ పరికరంలో స్థానికంగా నిల్వ చేయబడతాయి.</p>
+
+        <h2>మూడవ పక్ష సేవలు</h2>
+        <p>أذان الصلاة: అజాన్ అల్ సలాత్ ఏదైనా మూడవ పక్ష విశ్లేషణ, ప్రకటన లేదా క్రాష్-రిపోర్టింగ్ సేవలను సమీకృతం చేయదు. ఎటువంటి విశ్లేషణ లేదా ప్రకటన SDK లేదు. కొనుగోళ్లకు ఉపయోగించే ఏకైక బాహ్య సేవ Google Play Billing.</p>
+
+        <h2>పిల్లల గోప్యత</h2>
+        <p>أذان الصلاة: అజాన్ అల్ సలాత్ పిల్లలు లేదా పెద్దల నుండి ఖాతా స్థాయి వ్యక్తిగత సమాచారాన్ని ఉద్దేశపూర్వకంగా సేకరించదు.</p>
+
+        <h2>డేటా తొలగింపు</h2>
+        <p>అన్ని డేటా మీ పరికరంలో స్థానికంగా నిల్వ చేయబడినందున:</p>
+        <ul>
+            <li>యాప్‌ను అన్‌ఇన్‌స్టాల్ చేయడం వల్ల స్థానికంగా నిల్వ చేయబడిన అన్ని డేటా తొలగించబడుతుంది</li>
+            <li>యాప్ యొక్క సెట్టింగులు స్క్రీన్ నుండి స్థానం మరియు ప్రాధాన్యతలను రీసెట్ చేయవచ్చు</li>
+        </ul>
+
+        <h2>ఈ విధానంలో మార్పులు</h2>
+        <p>మేము ఎప్పటికప్పుడు ఈ గోప్యతా విధానాన్ని నవీకరించవచ్చు. ఏదైనా మార్పులు నవీకరించబడిన సవరణ తేదీతో ఈ పేజీలో పోస్ట్ చేయబడతాయి.</p>
+
+        <h2>సంప్రదింపు</h2>
+        <p>ఈ గోప్యతా విధానం గురించి మీకు ప్రశ్నలు ఉంటే, దయచేసి మమ్మల్ని సంప్రదించండి:</p>
+        <p><a href="mailto:contact@yasserhamek.com">contact@yasserhamek.com</a></p>
+    </div>
+</body>
+</html>

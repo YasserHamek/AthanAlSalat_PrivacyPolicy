@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>أذان الصلاة: Azán al Szalát - Adatvédelmi irányelvek</title>
+    <style>
+        :root {
+            --bg-color: #f5f5f7;
+            --text-color: #1d1d1f;
+            --accent-color: #1A3C34;
+            --card-bg: #ffffff;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: var(--card-bg);
+            border-radius: 16px;
+            padding: 40px;
+        }
+        h1 { color: var(--accent-color); margin-bottom: 10px; font-size: 2em; }
+        h2 { color: var(--accent-color); margin: 30px 0 15px; font-size: 1.3em; }
+        .date { color: #666; margin-bottom: 30px; }
+        p, li { margin-bottom: 12px; }
+        ul { padding-left: 25px; }
+        a { color: var(--accent-color); }
+        .highlight {
+            background: rgba(200,169,81,0.12);
+            padding: 15px;
+            border-radius: 8px;
+            margin: 20px 0;
+            border-left: 3px solid #C8A951;
+        }
+        .lang-switcher {
+            text-align: right;
+            margin-bottom: 20px;
+        }
+        .lang-switcher select {
+            padding: 8px 12px;
+            border-radius: 8px;
+            border: 1px solid #ddd;
+            background: white;
+            font-size: 14px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="lang-switcher">
+            <select onchange="window.location.href=this.value">
+                <option value="privacy-policy-android.html">English</option>
+                <option value="privacy-policy-android-af.html">Afrikaans</option>
+                <option value="privacy-policy-android-sq.html">Shqip</option>
+                <option value="privacy-policy-android-am.html">ሀመር</option>
+                <option value="privacy-policy-android-ar.html">العربية</option>
+                <option value="privacy-policy-android-hy.html">Հայերեն</option>
+                <option value="privacy-policy-android-az.html">Azərbayccan</option>
+                <option value="privacy-policy-android-eu.html">Euskara</option>
+                <option value="privacy-policy-android-be.html">Беларуская</option>
+                <option value="privacy-policy-android-bn.html">বাংলা</option>
+                <option value="privacy-policy-android-bg.html">Български</option>
+                <option value="privacy-policy-android-my.html">မြန်မာ</option>
+                <option value="privacy-policy-android-ca.html">Català</option>
+                <option value="privacy-policy-android-zh-CN.html">简体中文</option>
+                <option value="privacy-policy-android-zh-HK.html">中文(香港)</option>
+                <option value="privacy-policy-android-zh-TW.html">繁體中文</option>
+                <option value="privacy-policy-android-hr.html">Hrvatski</option>
+                <option value="privacy-policy-android-cs.html">Čeština</option>
+                <option value="privacy-policy-android-da.html">Dansk</option>
+                <option value="privacy-policy-android-nl.html">Nederlands</option>
+                <option value="privacy-policy-android-et.html">Eesti</option>
+                <option value="privacy-policy-android-fil.html">Filipino</option>
+                <option value="privacy-policy-android-fi.html">Suomi</option>
+                <option value="privacy-policy-android-fr.html">Français</option>
+                <option value="privacy-policy-android-fr-CA.html">Français (Canada)</option>
+                <option value="privacy-policy-android-gl.html">Galego</option>
+                <option value="privacy-policy-android-ka.html">ქართული</option>
+                <option value="privacy-policy-android-de.html">Deutsch</option>
+                <option value="privacy-policy-android-el.html">Ελληνικά</option>
+                <option value="privacy-policy-android-gu.html">ગુજરાતી</option>
+                <option value="privacy-policy-android-hi.html">हिन्दी</option>
+                <option value="privacy-policy-android-hu.html" selected>Magyar</option>
+                <option value="privacy-policy-android-is.html">Íslenska</option>
+                <option value="privacy-policy-android-id.html">Bahasa Indonesia</option>
+                <option value="privacy-policy-android-it.html">Italiano</option>
+                <option value="privacy-policy-android-ja.html">日本語</option>
+                <option value="privacy-policy-android-kn.html">ಕನ್ನಡ</option>
+                <option value="privacy-policy-android-kk.html">Қазақ</option>
+                <option value="privacy-policy-android-km.html">ខ្មែរ</option>
+                <option value="privacy-policy-android-ko.html">한국어</option>
+                <option value="privacy-policy-android-ky.html">Кыргызча</option>
+                <option value="privacy-policy-android-lo.html">ລາວ</option>
+                <option value="privacy-policy-android-lv.html">Latviešu</option>
+                <option value="privacy-policy-android-lt.html">Lietuvių</option>
+                <option value="privacy-policy-android-mk.html">Македонски</option>
+                <option value="privacy-policy-android-ms.html">Bahasa Melayu</option>
+                <option value="privacy-policy-android-ml.html">മലയാളം</option>
+                <option value="privacy-policy-android-mr.html">मराठी</option>
+                <option value="privacy-policy-android-mn.html">Монгол</option>
+                <option value="privacy-policy-android-ne.html">नेपाली</option>
+                <option value="privacy-policy-android-no.html">Norsk</option>
+                <option value="privacy-policy-android-fa.html">فارسی</option>
+                <option value="privacy-policy-android-pl.html">Polski</option>
+                <option value="privacy-policy-android-pt-BR.html">Português (Brasil)</option>
+                <option value="privacy-policy-android-pt-PT.html">Português (Portugal)</option>
+                <option value="privacy-policy-android-pa.html">ਪੰਜਾਬੀ</option>
+                <option value="privacy-policy-android-ro.html">Română</option>
+                <option value="privacy-policy-android-rm.html">Rumantsch</option>
+                <option value="privacy-policy-android-ru.html">Русский</option>
+                <option value="privacy-policy-android-sr.html">Српски</option>
+                <option value="privacy-policy-android-si.html">සිංහල</option>
+                <option value="privacy-policy-android-sk.html">Slovenčina</option>
+                <option value="privacy-policy-android-sl.html">Slovenščina</option>
+                <option value="privacy-policy-android-es-419.html">Español (Latinoamérica)</option>
+                <option value="privacy-policy-android-es-ES.html">Español (España)</option>
+                <option value="privacy-policy-android-es-US.html">Español (EE. UU.)</option>
+                <option value="privacy-policy-android-sw.html">Kiswahili</option>
+                <option value="privacy-policy-android-sv.html">Svenska</option>
+                <option value="privacy-policy-android-ta.html">தமிழ்</option>
+                <option value="privacy-policy-android-te.html">తెలుగు</option>
+                <option value="privacy-policy-android-th.html">ไทย</option>
+                <option value="privacy-policy-android-tr.html">Türkçe</option>
+                <option value="privacy-policy-android-uk.html">Українська</option>
+                <option value="privacy-policy-android-ur.html">اردو</option>
+                <option value="privacy-policy-android-vi.html">Tiếng Việt</option>
+                <option value="privacy-policy-android-zu.html">isiZulu</option>
+            </select>
+        </div>
+
+        <h1>Az أذان الصلاة: Azán al Szalát adatvédelmi irányelvei</h1>
+        <p class="date">Utolsó frissítés: 2026. április</p>
+
+        <div class="highlight">
+            <strong>Összefoglaló:</strong> أذان الصلاة: أذان الصلاة: أذان الصلاة: أذان الصلاة: Athan al Salat tiszteletben tartja a magánéletét. Nem gyűjtünk fiókszintű személyes adatokat, például neveket, e-mail címeket vagy hirdetési azonosítókat. Egyes helyalapú szolgáltatások elküldhetik GPS-koordinátáit harmadik fél szolgáltatásainak, hogy kiszámítsák az imaidőket vagy feloldják a városneveket. </div>
+
+        <h2>Adatok, amelyeket nem gyűjtünk</h2>
+        <p>أذان الصلاة: أذان الصلاة: أذان الصلاة: أذان الصلاة: Athan al Salat nem gyűjt fiókszintű személyes adatokat. Konkrétan nem gyűjtünk:</p>
+        <ul>
+            <li>Neveket, e-mail-címeket vagy elérhetőségeket</li>
+            <li>Eszközazonosítókat nyomkövetési célokra</li>
+            <li>Használati elemzéseket vagy viselkedési adatokat</li>
+            <li>Semmilyen adatot hirdetési célokra</li>
+        </ul>
+
+        <h2>Helyi adattárolás</h2>
+        <p>أذان الصلاة: أذان الصلاة: أذان الصلاة: أذان الصلاة: Athan al Salat a következő adatokat tárolja helyileg az eszközén az Android SharedPreferences használatával. Ezeket a beállításokat a rendszer az eszközre menti, bár a helyalapú szolgáltatások szükség esetén elküldhetik a GPS-koordinátákat harmadik fél szolgáltatásainak:</p>
+        <ul>
+            <li><strong>Helyszín:</strong> GPS-koordináták és városnév, az imaidők kiszámításához és megjelenítéséhez gyorsítótárazva</li>
+            <li><strong>Imabeállítások:</strong> Számítási módszer, azán-hangok, értesítési és iqama-beállítások</li>
+            <li><strong>Imagyorsítótár:</strong> 30 napos offline imaidő-gyorsítótár</li>
+            <li><strong>Korán:</strong> Fordítási beállítások, gyorsítótárazott fordítások, könyvjelzők és betűméret</li>
+            <li><strong>Alkalmazásbeállítások:</strong> Nyelv, sötét mód és belépési állapot</li>
+            <li><strong>Vásárlási állapot:</strong> Az alkalmazáson belüli vásárlások nyilvántartása</li>
+        </ul>
+
+        <h2>Hálózati kérések</h2>
+        <p>Az alábbiakban az alkalmazás által kezdeményezhető hálózati kérések teljes listája található. Ezekhez a kérésekhez nem csatoltak közvetlen azonosítókat, például az Ön nevét, e-mail címét vagy eszközazonosítóját:</p>
+        <ul>
+            <li><strong>Aladhan API</strong> (aladhan.com) — Csak akkor használható tartalékként, ha az offline imaszámítás sikertelen. Elküldi a GPS-koordinátákat és számítási módszert az áhítatok kiszámításához.</li>
+            <li><strong>AlQuran Cloud API</strong> (alquran.cloud) — Az első használatkor lekéri a Korán-fordításokat. Csak a fejezet számát és a fordítási kódot küldi el.</li>
+            <li><strong>Photon / Nominatim / OpenStreetMap</strong> — Egyszer használjuk a GPS-koordináták városnévvé alakítására megjelenítés céljából. Nem küldünk állandó azonosítót.</li>
+            <li><strong>DNS-ellenőrzés</strong> (dns.google) — Egy szabványos DNS-keresés, amelyet a háttérben használunk az internet elérhetőségének ellenőrzésére, mielőtt frissítjük az imagyorsítótárat. Nem küldünk alkalmazásadatot.</li>
+        </ul>
+
+        <h2>Alkalmazáson belüli vásárlások</h2>
+        <p>Az أذان الصلاة: Azán al Szalát opcionális alkalmazáson belüli vásárlásokat kínál, amelyeket teljes egészében a Google Play Store-on keresztül dolgozzák fel a Google Play Billing segítségével. A vásárlási nyilvántartásokat a Google kezeli, és lokálisan tárolja az eszközén.</p>
+
+        <h2>Harmadik feles szolgáltatások</h2>
+        <p>Az أذان الصلاة: Azán al Szalát nem integrál harmadik feles elemzési, hirdetési vagy összeomlásjelentési szolgáltatásokat. Nincs elemzési vagy hirdetési SDK. A vásárlásokhoz használt egyetlen külső szolgáltatás a Google Play Billing.</p>
+
+        <h2>Gyermekek adatvédelme</h2>
+        <p>أذان الصلاة: أذان الصلاة: أذان الصلاة: أذان الصلاة: Athan al Salat tudatosan nem gyűjt fiókszintű személyes adatokat gyermekektől vagy felnőttektől.</p>
+
+        <h2>Adatok törlése</h2>
+        <p>Mivel az összes adat lokálisan tárolódik az eszközén:</p>
+        <ul>
+            <li>Az alkalmazás eltávolítása törli az összes lokálisan tárolt adatot</li>
+            <li>Az alkalmazás Beállítások képernyőjéről visszaállíthatja a helyszínt és a beállításokat</li>
+        </ul>
+
+        <h2>Az irányelvek módosításai</h2>
+        <p>Időnként frissíthetjük ezt az adatvédelmi irányelvet. Minden módosítást frissített felülvizsgálati dátummal teszünk közzé ezen az oldalon.</p>
+
+        <h2>Kapcsolat</h2>
+        <p>Ha kérdése van ezzel az adatvédelmi irányelvvel kapcsolatban, kérjük, lépjen velünk kapcsolatba:</p>
+        <p><a href="mailto:contact@yasserhamek.com">contact@yasserhamek.com</a></p>
+    </div>
+</body>
+</html>

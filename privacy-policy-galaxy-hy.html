@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="hy">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>أذان الصلاة: Ազան ալ-Սալաթ - Գաղտնիության Քաղաքականություն</title>
+    <style>
+        :root {
+            --bg-color: #f5f5f7;
+            --text-color: #1d1d1f;
+            --accent-color: #1A3C34;
+            --card-bg: #ffffff;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: var(--card-bg);
+            border-radius: 16px;
+            padding: 40px;
+        }
+        h1 { color: var(--accent-color); margin-bottom: 10px; font-size: 2em; }
+        h2 { color: var(--accent-color); margin: 30px 0 15px; font-size: 1.3em; }
+        .date { color: #666; margin-bottom: 30px; }
+        p, li { margin-bottom: 12px; }
+        ul { padding-left: 25px; }
+        a { color: var(--accent-color); }
+        .highlight {
+            background: rgba(200,169,81,0.12);
+            padding: 15px;
+            border-radius: 8px;
+            margin: 20px 0;
+            border-left: 3px solid #C8A951;
+        }
+        .lang-switcher {
+            text-align: right;
+            margin-bottom: 20px;
+        }
+        .lang-switcher select {
+            padding: 8px 12px;
+            border-radius: 8px;
+            border: 1px solid #ddd;
+            background: white;
+            font-size: 14px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="lang-switcher">
+            <select onchange="window.location.href=this.value">
+                <option value="privacy-policy-galaxy.html">English</option>
+                <option value="privacy-policy-galaxy-af.html">Afrikaans</option>
+                <option value="privacy-policy-galaxy-sq.html">Shqip</option>
+                <option value="privacy-policy-galaxy-am.html">ሀመር</option>
+                <option value="privacy-policy-galaxy-ar.html">العربية</option>
+                <option value="privacy-policy-galaxy-hy.html" selected>Հայերեն</option>
+                <option value="privacy-policy-galaxy-az.html">Azərbayccan</option>
+                <option value="privacy-policy-galaxy-eu.html">Euskara</option>
+                <option value="privacy-policy-galaxy-be.html">Беларуская</option>
+                <option value="privacy-policy-galaxy-bn.html">বাংলা</option>
+                <option value="privacy-policy-galaxy-bg.html">Български</option>
+                <option value="privacy-policy-galaxy-my.html">မြန်မာ</option>
+                <option value="privacy-policy-galaxy-ca.html">Català</option>
+                <option value="privacy-policy-galaxy-zh-CN.html">简体中文</option>
+                <option value="privacy-policy-galaxy-zh-HK.html">中文(香港)</option>
+                <option value="privacy-policy-galaxy-zh-TW.html">繁體中文</option>
+                <option value="privacy-policy-galaxy-hr.html">Hrvatski</option>
+                <option value="privacy-policy-galaxy-cs.html">Čeština</option>
+                <option value="privacy-policy-galaxy-da.html">Dansk</option>
+                <option value="privacy-policy-galaxy-nl.html">Nederlands</option>
+                <option value="privacy-policy-galaxy-et.html">Eesti</option>
+                <option value="privacy-policy-galaxy-fil.html">Filipino</option>
+                <option value="privacy-policy-galaxy-fi.html">Suomi</option>
+                <option value="privacy-policy-galaxy-fr.html">Français</option>
+                <option value="privacy-policy-galaxy-fr-CA.html">Français (Canada)</option>
+                <option value="privacy-policy-galaxy-gl.html">Galego</option>
+                <option value="privacy-policy-galaxy-ka.html">ქართული</option>
+                <option value="privacy-policy-galaxy-de.html">Deutsch</option>
+                <option value="privacy-policy-galaxy-el.html">Ελληνικά</option>
+                <option value="privacy-policy-galaxy-gu.html">ગુજરાતી</option>
+                <option value="privacy-policy-galaxy-hi.html">हिन्दी</option>
+                <option value="privacy-policy-galaxy-hu.html">Magyar</option>
+                <option value="privacy-policy-galaxy-is.html">Íslenska</option>
+                <option value="privacy-policy-galaxy-id.html">Bahasa Indonesia</option>
+                <option value="privacy-policy-galaxy-it.html">Italiano</option>
+                <option value="privacy-policy-galaxy-ja.html">日本語</option>
+                <option value="privacy-policy-galaxy-kn.html">ಕನ್ನಡ</option>
+                <option value="privacy-policy-galaxy-kk.html">Қазақ</option>
+                <option value="privacy-policy-galaxy-km.html">ខ្មែរ</option>
+                <option value="privacy-policy-galaxy-ko.html">한국어</option>
+                <option value="privacy-policy-galaxy-ky.html">Кыргызча</option>
+                <option value="privacy-policy-galaxy-lo.html">ລາວ</option>
+                <option value="privacy-policy-galaxy-lv.html">Latviešu</option>
+                <option value="privacy-policy-galaxy-lt.html">Lietuvių</option>
+                <option value="privacy-policy-galaxy-mk.html">Македонски</option>
+                <option value="privacy-policy-galaxy-ms.html">Bahasa Melayu</option>
+                <option value="privacy-policy-galaxy-ml.html">മലയാളം</option>
+                <option value="privacy-policy-galaxy-mr.html">मराठी</option>
+                <option value="privacy-policy-galaxy-mn.html">Монгол</option>
+                <option value="privacy-policy-galaxy-ne.html">नेपाली</option>
+                <option value="privacy-policy-galaxy-no.html">Norsk</option>
+                <option value="privacy-policy-galaxy-fa.html">فارسی</option>
+                <option value="privacy-policy-galaxy-pl.html">Polski</option>
+                <option value="privacy-policy-galaxy-pt-BR.html">Português (Brasil)</option>
+                <option value="privacy-policy-galaxy-pt-PT.html">Português (Portugal)</option>
+                <option value="privacy-policy-galaxy-pa.html">ਪੰਜਾਬੀ</option>
+                <option value="privacy-policy-galaxy-ro.html">Română</option>
+                <option value="privacy-policy-galaxy-rm.html">Rumantsch</option>
+                <option value="privacy-policy-galaxy-ru.html">Русский</option>
+                <option value="privacy-policy-galaxy-sr.html">Српски</option>
+                <option value="privacy-policy-galaxy-si.html">සිංහල</option>
+                <option value="privacy-policy-galaxy-sk.html">Slovenčina</option>
+                <option value="privacy-policy-galaxy-sl.html">Slovenščina</option>
+                <option value="privacy-policy-galaxy-es-419.html">Español (Latinoamérica)</option>
+                <option value="privacy-policy-galaxy-es-ES.html">Español (España)</option>
+                <option value="privacy-policy-galaxy-es-US.html">Español (EE. UU.)</option>
+                <option value="privacy-policy-galaxy-sw.html">Kiswahili</option>
+                <option value="privacy-policy-galaxy-sv.html">Svenska</option>
+                <option value="privacy-policy-galaxy-ta.html">தமிழ்</option>
+                <option value="privacy-policy-galaxy-te.html">తెలుగు</option>
+                <option value="privacy-policy-galaxy-th.html">ไทย</option>
+                <option value="privacy-policy-galaxy-tr.html">Türkçe</option>
+                <option value="privacy-policy-galaxy-uk.html">Українська</option>
+                <option value="privacy-policy-galaxy-ur.html">اردو</option>
+                <option value="privacy-policy-galaxy-vi.html">Tiếng Việt</option>
+                <option value="privacy-policy-galaxy-zu.html">isiZulu</option>
+            </select>
+        </div>
+
+        <h1>أذان الصلاة: Ազան ալ-Սալաթ-ի Գաղտնիության Քաղաքականություն</h1>
+        <p class="date">Վերջին թարմացում՝ ապրիլ 2026</p>
+
+        <div class="highlight">
+            <strong>Ամփոփում՝</strong> أذان الصلاة: Ազան ալ հարգում է ձեր գաղտնիությունը: Մենք չենք հավաքում հաշվի մակարդակի անձնական տվյալներ, ինչպիսիք են անունները, էլփոստի հասցեները կամ գովազդային նույնացուցիչները: Տեղադրության վրա հիմնված որոշ գործառույթներ կարող են ուղարկել ձեր GPS կոորդինատները երրորդ կողմի ծառայություններին՝ աղոթքի ժամերը հաշվարկելու կամ քաղաքների անունները որոշելու համար: </div>
+
+        <h2>Տեղեկություններ, որոնք մենք չենք հավաքում</h2>
+        <p>أذان الصلاة: Ազան ալ չի հավաքում հաշվի մակարդակի անձնական տվյալները: Մասնավորապես, մենք չենք հավաքում.</p>
+        <ul>
+            <li>Անուններ, էլ. փոստի հասցեներ կամ կոնտակտային տեղեկություններ</li>
+            <li>Սարքի նույնացուցիչներ հետևելու նպատակով</li>
+            <li>Օգտագործման վերլուծություն կամ վարքային տվյալներ</li>
+            <li>Որևէ տվյալ գովազդային նպատակներով</li>
+        </ul>
+
+        <h2>Տեղական տվյալների պահպանում</h2>
+        <p>أذان الصلاة: Ազան ալ պահպանում է հետևյալ տվյալները ձեր սարքի վրա՝ օգտագործելով Android SharedPreferences: Այս կարգավորումները պահվում են սարքում, թեև տեղադրության վրա հիմնված գործառույթները կարող են նաև ուղարկել ձեր GPS կոորդինատները երրորդ կողմի ծառայություններին, երբ անհրաժեշտ է.</p>
+        <ul>
+            <li><strong>Գտնվելու վայր՝</strong> GPS կոորդինատներ և քաղաքի անուն, պահված աղոթքի ժամանակների հաշվարկի և ցուցադրման համար</li>
+            <li><strong>Աղոթքի կարգավորումներ՝</strong> Հաշվարկի մեթոդ, ազանի ձայներ, ծանուցումների և իքամայի նախապատվություններ</li>
+            <li><strong>Աղոթքի քեշ՝</strong> 30-օրյա անցանց աղոթքի ժամանակների քեշ</li>
+            <li><strong>Ղուրան՝</strong> Թարգմանության նախապատվություններ, քեշավորված թարգմանություններ, էջանիշներ և տառաչափ</li>
+            <li><strong>Հավելվածի կարգավորումներ՝</strong> Լեզու, մուգ ռեժիմ և ուղեկցման կարգավիճակ</li>
+            <li><strong>Գնման կարգավիճակ՝</strong> Հավելվածի ներսում կատարված գնումների գրանցում</li>
+        </ul>
+
+        <h2>Ցանցային հարցումներ</h2>
+        <p>Ստորև ներկայացված է ցանցային հարցումների ամբողջական ցանկը, որը կարող է կատարել հավելվածը: Այս հարցումներին կցված չեն ուղղակի նույնացուցիչներ, ինչպիսիք են ձեր անունը, էլփոստի հասցեն կամ սարքի ID-ն.</p>
+        <ul>
+            <li><strong>Aladhan API</strong> (aladhan.com) — Օգտագործվում է որպես հետադարձ միայն այն դեպքում, եթե անցանց աղոթքի հաշվարկը ձախողվի: Աղոթքի ժամանակները հաշվարկելու համար ուղարկում է ձեր GPS կոորդինատները և հաշվարկման եղանակը:</li>
+            <li><strong>AlQuran Cloud API</strong> (alquran.cloud) — Ստանում է Ղուրանի թարգմանությունները առաջին օգտագործման ժամանակ։ Ուղարկում է միայն գլխի համարը և թարգմանության կոդը։</li>
+            <li><strong>Photon / Nominatim / OpenStreetMap</strong> — Մեկ անգամ օգտագործվում է ձեր GPS կոորդինատները քաղաքի անվան վերածելու համար։ Կայուն նույնացուցիչ չի ուղարկվում։</li>
+            <li><strong>DNS ստուգում</strong> (dns.google) — Ստանդարտ DNS որոնում, որն օգտագործվում է ֆոնում ինտերնետի հասանելիությունը ստուգելու համար՝ նախքան աղոթքի քեշի թարմացումը։ Հավելվածի տվյալներ չեն ուղարկվում։</li>
+        </ul>
+
+        <h2>Հավելվածի ներսում կատարվող գնումներ</h2>
+        <p>أذان الصلاة: Ազան ալ-Սալաթ-ը առաջարկում է ընտրովի գնումներ հավելվածի ներսում, որոնք ամբողջությամբ մշակվում են Samsung Galaxy Store-ի միջոցով՝ Samsung In-App Purchase (Samsung IAP)-ի օգտագործմամբ։ Գնումների գրառումները կառավարվում են Samsung-ի կողմից և պահվում տեղայնորեն ձեր սարքում։</p>
+
+        <h2>Երրորդ կողմի ծառայություններ</h2>
+        <p>أذان الصلاة: Ազան ալ-Սալաթ-ը չի ինտեգրում որևէ երրորդ կողմի վերլուծական, գովազդային կամ խափանման հաշվետու ծառայություններ։ Չկա վերլուծական կամ գովազդային SDK։ Գնումների համար օգտագործվող միակ արտաքին ծառայությունը Samsung In-App Purchase (Samsung IAP)-ն է։</p>
+
+        <h2>Երեխաների գաղտնիությունը</h2>
+        <p>أذان الصلاة: Ազան ալ գիտակցաբար չի հավաքում հաշվի մակարդակի անձնական տվյալները երեխաներից կամ մեծահասակներից:</p>
+
+        <h2>Տվյալների ջնջում</h2>
+        <p>Քանի որ բոլոր տվյալները պահվում են տեղայնորեն ձեր սարքում՝</p>
+        <ul>
+            <li>Հավելվածի տեղահանումը հեռացնում է տեղայնորեն պահված բոլոր տվյալները</li>
+            <li>Կարող եք վերականգնել գտնվելու վայրը և նախապատվությունները հավելվածի Կարգավորումների էկրանից</li>
+        </ul>
+
+        <h2>Փոփոխություններ այս քաղաքականությունում</h2>
+        <p>Մենք կարող ենք ժամանակ առ ժամանակ թարմացնել այս գաղտնիության քաղաքականությունը։ Ցանկացած փոփոխություն կտեղադրվի այս էջում թարմացված վերանայման ամսաթվով։</p>
+
+        <h2>Կոնտակտ</h2>
+        <p>Եթե ունեք հարցեր այս գաղտնիության քաղաքականության վերաբերյալ, խնդրում ենք կապ հաստատել մեզ հետ՝</p>
+        <p><a href="mailto:contact@yasserhamek.com">contact@yasserhamek.com</a></p>
+    </div>
+</body>
+</html>
